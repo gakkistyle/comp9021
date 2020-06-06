@@ -1,0 +1,359 @@
+TEST 1 BEGIN
+$ echo 68174084 | python3 quiz_3.py
+Enter a non-strictly negative integer: 68174084
+Keeping leading 0's, if any, in base 8, 68174084 reads as 404040404.
+
+⚪
+⚪
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 1031931 | python3 quiz_3.py
+Enter a non-strictly negative integer: 1031931
+Keeping leading 0's, if any, in base 8, 1031931 reads as 3737373.
+
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 342391 | python3 quiz_3.py
+Enter a non-strictly negative integer: 342391
+Keeping leading 0's, if any, in base 8, 342391 reads as 1234567.
+
+⚫⚪⚪⚫
+⚪⚫⚫⚪
+⚪⚫⚫⚪
+⚫⚪⚪⚫
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 135713500 | python3 quiz_3.py
+Enter a non-strictly negative integer: 135713500
+Keeping leading 0's, if any, in base 8, 135713500 reads as 1005551334.
+
+⚪⚫⚫⚫
+⚪⚫⚫⚫
+⚫⚫⚫⚪
+⚪⚫⚫⚫
+⚪⚪⚫⚫
+⚪⚫⚫⚫
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 680687 | python3 quiz_3.py
+Enter a non-strictly negative integer: 680687
+Keeping leading 0's, if any, in base 8, 680687 reads as 2461357.
+
+⚫⚪⚫
+⚪⚪⚫
+⚫⚫⚪
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 262143 | python3 quiz_3.py
+Enter a non-strictly negative integer: 262143
+Keeping leading 0's, if any, in base 8, 262143 reads as 777777.
+
+⚪⚫⚫⚫⚫⚫⚫
+⚫⚪⚫⚫⚫⚫⚫
+⚫⚫⚪⚫⚫⚫⚫
+⚫⚫⚫⚪⚫⚫⚫
+⚫⚫⚫⚫⚪⚫⚫
+⚫⚫⚫⚫⚫⚪⚫
+⚫⚫⚫⚫⚫⚫⚪
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 33620002627 | python3 quiz_3.py
+Enter a non-strictly negative integer: 33620002627
+Keeping leading 0's, if any, in base 8, 33620002627 reads as 372372103503.
+
+⚫⚫⚪⚪
+⚪⚪⚪⚫
+⚪⚫⚫⚫
+⚫⚪⚫⚫
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 67058135706 | python3 quiz_3.py
+Enter a non-strictly negative integer: 67058135706
+Keeping leading 0's, if any, in base 8, 67058135706 reads as 763476371232.
+
+⚫⚫⚪⚪
+⚪⚫⚪⚪
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 765564343176 | python3 quiz_3.py
+Enter a non-strictly negative integer: 765564343176
+Keeping leading 0's, if any, in base 8, 765564343176 reads as 13107714151610.
+
+⚫⚪⚫⚪
+⚪⚫⚪⚫
+⚪⚫⚫⚫
+⚫⚪⚫⚫
+⚫⚫⚪⚫
+⚫⚫⚫⚫
+⚪⚫⚫⚫
+⚪⚫⚫⚫
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 895489786745540 | python3 quiz_3.py
+Enter a non-strictly negative integer: 895489786745540
+Keeping leading 0's, if any, in base 8, 895489786745540 reads as 31347056650711304.
+
+⚪⚫⚫⚫⚫⚪⚫
+⚪⚪⚫⚪⚪⚪⚫
+⚫⚫⚫⚪⚫⚫⚪
+⚫⚫⚫⚫⚫⚪⚫
+⚫⚫⚫⚪⚪⚫⚫
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 0000757074233761155 | python3 quiz_3.py
+Enter a non-strictly negative integer: 0000757074233761155
+Keeping leading 0's, if any, in base 8, 0000757074233761155 reads as 000025410702461316603.
+
+⚫⚫⚫⚪
+⚫⚫⚫⚪
+⚫⚫⚫⚫
+⚫⚫⚪⚫
+⚫⚫⚫⚪
+⚫⚪⚪⚫
+⚪⚫⚪⚪
+⚫⚫⚪⚫
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 00000012413428878124 | python3 quiz_3.py
+Enter a non-strictly negative integer: 00000012413428878124
+Keeping leading 0's, if any, in base 8, 00000012413428878124 reads as 000000264507201145454.
+
+⚫⚪⚫⚫
+⚫⚪⚫⚫
+⚫⚪⚫⚫
+⚫⚪⚫⚫
+⚫⚪⚫⚫
+⚫⚫⚫⚫
+⚪⚪⚪⚪
+⚫⚪⚪⚫
+⚪⚪⚫⚫
+⚪⚫⚫⚫
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 99732672347632773488352 | python3 quiz_3.py
+Enter a non-strictly negative integer: 99732672347632773488352
+Keeping leading 0's, if any, in base 8, 99732672347632773488352 reads as 25075023352135172266357340.
+
+⚫⚫⚪⚫⚫⚫⚫
+⚫⚫⚫⚫⚫⚫⚫
+⚫⚪⚫⚫⚪⚫⚫
+⚪⚫⚪⚪⚪⚫⚫
+⚫⚫⚫⚪⚪⚫⚪
+⚫⚫⚫⚫⚫⚫⚪
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo 45346435645676574774674686 | python3 quiz_3.py
+Enter a non-strictly negative integer: 45346435645676574774674686
+Keeping leading 0's, if any, in base 8, 45346435645676574774674686 reads as 22602366316731736303732042376.
+
+⚪⚫⚫⚫⚫⚪⚫⚫
+⚫⚫⚪⚫⚪⚫⚪⚪
+⚫⚫⚪⚫⚫⚫⚫⚫
+⚫⚫⚫⚫⚫⚪⚫⚫
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo 0000000034289357623572356723736567 | python3 quiz_3.py
+Enter a non-strictly negative integer: 0000000034289357623572356723736567
+Keeping leading 0's, if any, in base 8, 0000000034289357623572356723736567 reads as 0000000016135033464524303452126277767.
+
+⚫⚪⚪⚫⚫⚪
+⚫⚪⚫⚫⚫⚪
+⚪⚪⚪⚫⚫⚪
+⚫⚪⚪⚪⚫⚪
+⚫⚫⚪⚫⚪⚪
+⚫⚫⚫⚪⚪⚪
+⚫⚫⚪⚪⚫⚪
+⚫⚫⚪⚫⚫⚪
+⚫⚫⚫⚪⚪⚪
+⚫⚫⚫⚪⚫⚪
+⚫⚫⚫⚫⚪⚫
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo 123456788765432234567654345677765435676 | python3 quiz_3.py
+Enter a non-strictly negative integer: 123456788765432234567654345677765435676
+Keeping leading 0's, if any, in base 8, 123456788765432234567654345677765435676 reads as 1347016464220441773117063271124021020260434.
+
+⚫⚫⚫⚫⚫⚫⚫⚪⚪⚫⚫
+⚫⚫⚫⚫⚫⚫⚫⚫⚪⚪⚪
+⚫⚫⚫⚫⚫⚫⚫⚪⚪⚫⚫
+⚫⚫⚫⚫⚫⚫⚪⚫⚫⚫⚫
+⚫⚫⚫⚫⚫⚫⚪⚫⚫⚫⚫
+⚫⚫⚫⚫⚫⚫⚫⚫⚪⚫⚫
+⚫⚫⚫⚫⚪⚫⚪⚫⚫⚫⚫
+⚫⚫⚫⚪⚫⚪⚫⚫⚫⚫⚫
+⚪⚫⚪⚫⚫⚫⚫⚫⚫⚫⚫
+⚪⚪⚪⚫⚫⚫⚫⚫⚫⚫⚫
+⚪⚪⚫⚫⚫⚫⚫⚫⚫⚫⚫
+⚫⚪⚫⚫⚫⚫⚫⚫⚫⚫⚫
+TEST 16 END
+
+TEST 17 BEGIN
+$ echo 00128340238623586635749868346394670346 | python3 quiz_3.py
+Enter a non-strictly negative integer: 00128340238623586635749868346394670346
+Keeping leading 0's, if any, in base 8, 00128340238623586635749868346394670346 reads as 00613365143107734143452123556041535372412.
+
+⚪⚪⚪⚫⚫⚫⚫⚫⚫
+⚫⚫⚪⚫⚫⚫⚫⚫⚫
+⚫⚫⚪⚪⚫⚫⚫⚫⚫
+⚫⚪⚪⚪⚫⚫⚫⚫⚫
+⚪⚫⚫⚪⚪⚫⚫⚫⚫
+⚫⚪⚪⚪⚫⚪⚫⚫⚫
+⚫⚫⚫⚪⚪⚫⚪⚫⚫
+⚫⚫⚫⚫⚫⚫⚫⚪⚫
+⚫⚫⚫⚫⚪⚫⚪⚪⚪
+⚫⚫⚫⚫⚫⚫⚪⚪⚫
+TEST 17 END
+
+TEST 18 BEGIN
+$ echo 7777777777777777777777777777777777777777777 | python3 quiz_3.py
+Enter a non-strictly negative integer: 7777777777777777777777777777777777777777777
+Keeping leading 0's, if any, in base 8, 7777777777777777777777777777777777777777777 reads as 262443255204643226723125226315112761616161616161.
+
+⚫⚫⚫⚪⚫⚪⚫⚫⚪⚫
+⚪⚪⚫⚫⚪⚪⚫⚪⚪⚪
+⚫⚪⚪⚫⚫⚫⚫⚫⚫⚫
+⚫⚪⚪⚫⚫⚫⚫⚫⚫⚫
+⚫⚪⚪⚫⚫⚫⚫⚪⚪⚫
+⚫⚪⚪⚫⚫⚫⚫⚫⚫⚪
+⚫⚪⚪⚫⚫⚫⚫⚫⚫⚪
+⚫⚪⚪⚫⚫⚫⚫⚫⚫⚫
+⚫⚪⚪⚫⚫⚫⚫⚫⚫⚫
+⚫⚪⚫⚫⚫⚫⚫⚫⚫⚫
+TEST 18 END
+
+TEST 19 BEGIN
+$ echo 55555555555555555555555555555555555555 | python3 quiz_3.py
+Enter a non-strictly negative integer: 55555555555555555555555555555555555555
+Keeping leading 0's, if any, in base 8, 55555555555555555555555555555555555555 reads as 516271613541720064207461511367434343434343.
+
+⚪⚫⚫⚫⚫⚫⚫⚫
+⚫⚪⚫⚫⚫⚫⚫⚫
+⚫⚪⚫⚫⚫⚫⚫⚫
+⚫⚫⚪⚫⚫⚫⚫⚫
+⚫⚫⚪⚫⚫⚫⚫⚫
+⚫⚫⚫⚪⚫⚫⚫⚪
+⚫⚫⚫⚪⚫⚫⚫⚪
+⚫⚫⚫⚫⚪⚪⚪⚪
+⚫⚫⚫⚫⚪⚫⚫⚪
+⚫⚫⚫⚫⚫⚪⚫⚫
+⚫⚫⚫⚫⚫⚪⚫⚫
+⚫⚫⚫⚫⚪⚪⚫⚫
+⚫⚫⚫⚫⚫⚪⚪⚫
+TEST 19 END
+
+TEST 20 BEGIN
+$ echo 333333333333333333333333333333333 | python3 quiz_3.py
+Enter a non-strictly negative integer: 333333333333333333333333333333333
+Keeping leading 0's, if any, in base 8, 333333333333333333333333333333333 reads as 1015720413331667366256220152525252525.
+
+⚫⚫⚫⚪⚫⚫⚫
+⚫⚫⚪⚪⚫⚫⚫
+⚫⚫⚪⚪⚫⚫⚫
+⚫⚫⚪⚪⚫⚫⚪
+⚫⚪⚪⚫⚫⚫⚫
+⚪⚪⚫⚫⚪⚫⚫
+⚫⚫⚪⚫⚪⚫⚪
+⚫⚫⚫⚫⚪⚪⚫
+TEST 20 END
+
+TEST 21 BEGIN
+$ echo 0000000000034235245346534635673577357373 | python3 quiz_3.py
+Enter a non-strictly negative integer: 0000000000034235245346534635673577357373
+Keeping leading 0's, if any, in base 8, 0000000000034235245346534635673577357373 reads as 0000000000033517273142016546273374707100075.
+
+⚫⚫⚫⚫⚫⚪
+⚫⚫⚫⚫⚫⚪
+⚫⚫⚫⚫⚫⚪
+⚫⚫⚫⚫⚫⚪
+⚫⚫⚫⚫⚫⚪
+⚫⚫⚫⚫⚫⚪
+⚫⚫⚫⚫⚫⚪
+⚫⚫⚫⚫⚫⚪
+⚫⚫⚫⚫⚪⚪
+⚫⚪⚪⚫⚫⚪
+⚫⚪⚪⚫⚫⚪
+⚫⚪⚫⚫⚪⚪
+⚪⚪⚫⚫⚪⚫
+⚫⚫⚫⚪⚫⚫
+⚫⚫⚫⚪⚫⚫
+⚫⚫⚫⚪⚫⚫
+⚫⚫⚫⚪⚫⚪
+⚫⚫⚫⚫⚪⚫
+TEST 21 END
+
+TEST 22 BEGIN
+$ echo 34534634634426246346347353575335735737 | python3 quiz_3.py
+Enter a non-strictly negative integer: 34534634634426246346347353575335735737
+Keeping leading 0's, if any, in base 8, 34534634634426246346347353575335735737 reads as 317662036216417665062337106351165220230671.
+
+⚫⚫⚪⚫⚫⚫⚫
+⚫⚪⚫⚪⚫⚫⚫
+⚫⚫⚫⚫⚪⚫⚫
+⚫⚫⚪⚪⚪⚪⚫
+⚪⚫⚫⚪⚫⚫⚪
+⚪⚫⚫⚫⚪⚫⚫
+⚫⚫⚪⚫⚫⚫⚫
+⚫⚪⚫⚫⚫⚫⚫
+TEST 22 END
+
+TEST 23 BEGIN
+$ echo 453456234623567345747346734568756858456584485648 | python3 quiz_3.py
+Enter a non-strictly negative integer: 453456234623567345747346734568756858456584485648
+Keeping leading 0's, if any, in base 8, 453456234623567345747346734568756858456584485648 reads as 47555534445347123707442700511651340372645604045775420.
+
+⚫⚫⚫⚫⚪⚫⚫⚫⚫⚫
+⚫⚫⚪⚫⚪⚪⚫⚫⚫⚫
+⚫⚫⚫⚪⚫⚪⚪⚫⚪⚪
+⚫⚫⚫⚪⚫⚪⚫⚪⚪⚪
+⚫⚫⚪⚫⚪⚪⚫⚫⚪⚫
+⚫⚫⚪⚫⚪⚪⚫⚫⚫⚫
+⚫⚫⚫⚪⚪⚫⚫⚫⚫⚫
+⚫⚫⚫⚫⚫⚪⚫⚫⚫⚫
+⚫⚫⚫⚫⚪⚫⚫⚫⚫⚫
+⚫⚫⚫⚪⚫⚫⚫⚫⚫⚫
+⚪⚫⚪⚫⚫⚫⚫⚫⚫⚫
+⚪⚪⚫⚫⚫⚫⚫⚫⚫⚫
+TEST 23 END
+
+TEST 24 BEGIN
+$ echo 56457457324733547563473475 | python3 quiz_3.py
+Enter a non-strictly negative integer: 56457457324733547563473475
+Keeping leading 0's, if any, in base 8, 56457457324733547563473475 reads as 27263251623537005613224055103.
+
+⚪⚪⚫⚫
+⚫⚫⚫⚫
+⚪⚫⚫⚪
+⚫⚫⚫⚪
+⚫⚫⚪⚫
+TEST 24 END
+
+TEST 25 BEGIN
+$ echo 5342436564357243757 | python3 quiz_3.py
+Enter a non-strictly negative integer: 5342436564357243757
+Keeping leading 0's, if any, in base 8, 5342436564357243757 reads as 450441133776544461555.
+
+⚫⚫⚫⚫⚫⚫⚫⚪
+⚫⚫⚫⚫⚫⚫⚪⚫
+⚫⚫⚫⚫⚪⚫⚫⚫
+⚫⚫⚫⚫⚫⚫⚫⚫
+⚪⚫⚫⚫⚫⚫⚫⚫
+⚫⚫⚫⚪⚪⚫⚫⚫
+⚫⚫⚫⚫⚪⚫⚫⚫
+⚫⚫⚫⚪⚫⚫⚫⚫
+TEST 25 END
+

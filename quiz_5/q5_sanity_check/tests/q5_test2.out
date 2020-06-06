@@ -1,0 +1,3 @@
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers:   In base 2, 3 reads as 11
+  It encodes:  [1]

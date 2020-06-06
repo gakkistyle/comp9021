@@ -1,0 +1,8 @@
+# Initial state: q0
+
+q0 1 q1 0 R
+q1 1 q1 1 R
+q1 0 q2 1 L
+q2 1 q2 1 L
+q2 0 q3 0 R
+

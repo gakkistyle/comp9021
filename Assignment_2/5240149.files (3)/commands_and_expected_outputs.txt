@@ -1,0 +1,320 @@
+TEST 1 BEGIN
+$ python3 -c "from maze import *; Maze('incorrect_input_1.txt')"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 100, in __init__
+    self.get_input(file)
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 177, in get_input
+    raise MazeError('Incorrect input.')
+maze.MazeError: Incorrect input.
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c "from maze import *; Maze('incorrect_input_2.txt')"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 100, in __init__
+    self.get_input(file)
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 171, in get_input
+    raise MazeError('Incorrect input.')
+maze.MazeError: Incorrect input.
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c "from maze import *; Maze('incorrect_input_3.txt')"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 100, in __init__
+    self.get_input(file)
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 167, in get_input
+    raise MazeError('Incorrect input.')
+maze.MazeError: Incorrect input.
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c "from maze import *; Maze('incorrect_input_4.txt')"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 100, in __init__
+    self.get_input(file)
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 183, in get_input
+    raise MazeError('Incorrect input.')
+maze.MazeError: Incorrect input.
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c "from maze import *; Maze('incorrect_input_5.txt')"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 100, in __init__
+    self.get_input(file)
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 171, in get_input
+    raise MazeError('Incorrect input.')
+maze.MazeError: Incorrect input.
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c "from maze import *; Maze('incorrect_input_6.txt')"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 100, in __init__
+    self.get_input(file)
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 173, in get_input
+    raise MazeError('Incorrect input.')
+maze.MazeError: Incorrect input.
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c "from maze import *; Maze('not_a_maze_1.txt')"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 100, in __init__
+    self.get_input(file)
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 179, in get_input
+    raise MazeError('Input does not represent a maze.')
+maze.MazeError: Input does not represent a maze.
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c "from maze import *; Maze('not_a_maze_2.txt')"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 100, in __init__
+    self.get_input(file)
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 181, in get_input
+    raise MazeError('Input does not represent a maze.')
+maze.MazeError: Input does not represent a maze.
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c "from maze import *; Maze('not_a_maze_3.txt')"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 100, in __init__
+    self.get_input(file)
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 181, in get_input
+    raise MazeError('Input does not represent a maze.')
+maze.MazeError: Input does not represent a maze.
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c "from maze import *; Maze('not_a_maze_4.txt')"
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 100, in __init__
+    self.get_input(file)
+  File "/Users/rhamadi/Documents/COMP9021/Assignments/Assignment 2/Submissions/z2286838/maze.py", line 179, in get_input
+    raise MazeError('Input does not represent a maze.')
+maze.MazeError: Input does not represent a maze.
+TEST 10 END
+
+TEST 11 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_3.txt'); maze.analyse()"
+The maze has 4 gates.
+The maze has no wall.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has no accessible cul-de-sac.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+TEST 11 END
+
+TEST 12 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_4.txt'); maze.analyse()"
+The maze has no gate.
+The maze has walls that are all connected.
+The maze has 2 inaccessible inner points.
+The maze has no accessible area.
+The maze has no accessible cul-de-sac.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+TEST 12 END
+
+TEST 13 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_5.txt'); maze.analyse()"
+The maze has 8 gates.
+The maze has walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has 2 accessible areas.
+The maze has no accessible cul-de-sac.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+TEST 13 END
+
+TEST 14 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_6.txt'); maze.analyse()"
+The maze has 8 gates.
+The maze has walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has 3 accessible areas.
+The maze has no accessible cul-de-sac.
+The maze has 2 entry-exit paths with no intersections not to cul-de-sacs.
+TEST 14 END
+
+TEST 15 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_7.txt'); maze.analyse()"
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has 15 inaccessible inner points.
+The maze has a unique accessible area.
+The maze has no accessible cul-de-sac.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+TEST 15 END
+
+TEST 16 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_8.txt'); maze.analyse()"
+The maze has 6 gates.
+The maze has walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has 3 accessible areas.
+The maze has accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+TEST 16 END
+
+TEST 17 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_9.txt'); maze.analyse()"
+The maze has 10 gates.
+The maze has walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has 5 accessible areas.
+The maze has accessible cul-de-sacs that are all connected.
+The maze has 3 entry-exit paths with no intersections not to cul-de-sacs.
+TEST 17 END
+
+TEST 18 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_10.txt'); maze.analyse()"
+The maze has 29 gates.
+The maze has 21 sets of walls that are all connected.
+The maze has 12 inaccessible inner points.
+The maze has 8 accessible areas.
+The maze has 26 sets of accessible cul-de-sacs that are all connected.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+TEST 18 END
+
+TEST 19 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_11.txt'); maze.analyse()"
+The maze has 2 gates.
+The maze has 3 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 3 sets of accessible cul-de-sacs that are all connected.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+TEST 19 END
+
+TEST 20 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_12.txt'); maze.analyse()"
+The maze has 45 gates.
+The maze has 41 sets of walls that are all connected.
+The maze has 91 inaccessible inner points.
+The maze has 17 accessible areas.
+The maze has 98 sets of accessible cul-de-sacs that are all connected.
+The maze has 4 entry-exit paths with no intersections not to cul-de-sacs.
+TEST 20 END
+
+TEST 21 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_13.txt'); maze.analyse()"
+The maze has 80 gates.
+The maze has 72 sets of walls that are all connected.
+The maze has 195 inaccessible inner points.
+The maze has 26 accessible areas.
+The maze has 180 sets of accessible cul-de-sacs that are all connected.
+The maze has 2 entry-exit paths with no intersections not to cul-de-sacs.
+TEST 21 END
+
+TEST 22 BEGIN
+$ python3 -c "from maze import *; maze = Maze('labyrinth_2.txt'); maze.analyse()"
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 6 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+TEST 22 END
+
+TEST 23 BEGIN
+$ python3 -c "from maze import *; maze = Maze('labyrinth_3.txt'); maze.analyse()"
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 3 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+TEST 23 END
+
+TEST 24 BEGIN
+$ python3 -c "from maze import *; maze = Maze('labyrinth_4.txt'); maze.analyse()"
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 8 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+TEST 24 END
+
+TEST 25 BEGIN
+$ python3 -c "from maze import *; maze = Maze('labyrinth_5.txt'); maze.analyse()"
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 32 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+TEST 25 END
+
+TEST 26 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_3.txt'); maze.display()"
+TEST 26 END
+
+TEST 27 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_4.txt'); maze.display()"
+TEST 27 END
+
+TEST 28 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_5.txt'); maze.display()"
+TEST 28 END
+
+TEST 29 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_6.txt'); maze.display()"
+TEST 29 END
+
+TEST 30 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_7.txt'); maze.display()"
+TEST 30 END
+
+TEST 31 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_8.txt'); maze.display()"
+TEST 31 END
+
+TEST 32 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_9.txt'); maze.display()"
+TEST 32 END
+
+TEST 33 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_10.txt'); maze.display()"
+TEST 33 END
+
+TEST 34 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_11.txt'); maze.display()"
+TEST 34 END
+
+TEST 35 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_12.txt'); maze.display()"
+TEST 35 END
+
+TEST 36 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_13.txt'); maze.display()"
+TEST 36 END
+
+TEST 37 BEGIN
+$ python3 -c "from maze import *; maze = Maze('labyrinth_2.txt'); maze.display()"
+TEST 37 END
+
+TEST 38 BEGIN
+$ python3 -c "from maze import *; maze = Maze('labyrinth_3.txt'); maze.display()"
+TEST 38 END
+
+TEST 39 BEGIN
+$ python3 -c "from maze import *; maze = Maze('labyrinth_4.txt'); maze.display()"
+TEST 39 END
+
+TEST 40 BEGIN
+$ python3 -c "from maze import *; maze = Maze('labyrinth_5.txt'); maze.display()"
+TEST 40 END
+

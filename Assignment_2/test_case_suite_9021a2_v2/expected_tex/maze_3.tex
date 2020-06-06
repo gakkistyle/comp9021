@@ -1,0 +1,25 @@
+\documentclass[10pt]{article}
+\usepackage{tikz}
+\usetikzlibrary{shapes.misc}
+\usepackage[margin=0cm]{geometry}
+\pagestyle{empty}
+\tikzstyle{every node}=[cross out, draw, red]
+
+\begin{document}
+
+\vspace*{\fill}
+\begin{center}
+\begin{tikzpicture}[x=0.5cm, y=-0.5cm, ultra thick, blue]
+% Walls
+% Pillars
+    \fill[green] (0,0) circle(0.2);
+    \fill[green] (1,0) circle(0.2);
+    \fill[green] (0,1) circle(0.2);
+    \fill[green] (1,1) circle(0.2);
+% Inner points in accessible cul-de-sacs
+% Entry-exit paths without intersections
+\end{tikzpicture}
+\end{center}
+\vspace*{\fill}
+
+\end{document}

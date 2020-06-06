@@ -1,0 +1,30 @@
+# Initial state: q0
+
+q0 0 q1 0 R
+q0 1 q1 0 R
+q1 0 q15 0 R
+q1 1 q2 1 R
+q2 0 q3 0 R
+q2 1  q2 1 R
+q3 0 q3 0 R
+q3 1 q4 0 R
+q4 0 q13 1 L
+q4 1 q7 1 R
+q7 0 q8 0 R
+q7 1 q7 1 R
+q8 0 q10 1 L
+q8 1 q9 1 R
+q9 0 q10 1 L
+q9 1 q9 1 R
+q10 0 q11 0 L
+q10 1 q10 1 L
+q11 0 q3 0 R
+q11 1 q11 1 L
+q13 0 q13 0 L
+q13 1 q14 1 L
+q14 0 q0 0 R
+q14 1 q14 1 L
+q15 0 q15 1 R
+q15 1 q17 1 L
+q17 1 q17 1 L
+q17 0 q18 0 R

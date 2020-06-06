@@ -1,0 +1,10 @@
+python3 -c "from maze import *; Maze('incorrect_input_1.txt')"
+python3 -c "from maze import *; Maze('incorrect_input_2.txt')"
+python3 -c "from maze import *; Maze('not_a_maze_1.txt')"
+python3 -c "from maze import *; Maze('not_a_maze_2.txt')"
+python3 -c "from maze import *; maze = Maze('maze_1.txt'); maze.analyse()"
+python3 -c "from maze import *; maze = Maze('maze_2.txt'); maze.analyse()"
+python3 -c "from maze import *; maze = Maze('labyrinth.txt'); maze.analyse()"
+python3 -c "from maze import *; maze = Maze('maze_1.txt'); maze.display()"; cat maze_1.tex
+python3 -c "from maze import *; maze = Maze('maze_2.txt'); maze.display()"; cat maze_2.tex
+python3 -c "from maze import *; maze = Maze('labyrinth.txt'); maze.display()"; cat labyrinth.tex

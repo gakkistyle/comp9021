@@ -1,0 +1,46 @@
+Test 1_1 ... passed	0.075
+Test 1_2 ... passed	0.075
+Test 2_1 ... passed	0.075
+Test 2_2 ... passed	0.075
+Test 3_1 ... passed	0.075
+Test 3_2 ... passed	0.075
+Test 4_1 ... passed	0.075
+Test 4_2 ... passed	0.075
+Test 5_1 ... passed	0.075
+Test 5_2 ... passed	0.075
+Test 6_1 ... passed	0.075
+Test 6_2 ... passed	0.075
+Test 7_1 ... passed	0.075
+Test 7_2 ... passed	0.075
+Test 8_1 ... passed	0.075
+Test 8_2 ... passed	0.075
+Test 9_1 ... passed	0.075
+Test 9_2 ... passed	0.075
+Test 10_1 ... passed	0.075
+Test 10_2 ... passed	0.075
+Test 11_1 ... passed	0.075
+Test 11_2 ... passed	0.075
+Test 12_1 ... passed	0.075
+Test 12_2 ... passed	0.075
+Test 13_1 ... passed	0.075
+Test 13_2 ... passed	0.075
+Test 14_1 ... passed	0.075
+Test 14_2 ... passed	0.075
+Test 15_1 ... passed	0.075
+Test 15_2 ... passed	0.075
+Test 16_1 ... passed	0.075
+Test 16_2 ... passed	0.075
+Test 17_1 ... passed	0.075
+Test 17_2 ... passed	0.075
+Test 18_1 ... passed	0.075
+Test 18_2 ... passed	0.075
+Test 19_1 ... passed	0.075
+Test 19_2 ... passed	0.075
+Test 20_1 ... passed	0.075
+Test 20_2 ... passed	0.075
+
+Penalty       	
+
+Bonus         	
+
+Total mark    	3.000

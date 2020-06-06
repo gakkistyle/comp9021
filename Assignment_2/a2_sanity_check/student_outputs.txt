@@ -1,0 +1,50 @@
+TEST 1 BEGIN
+$ python3 -c "from maze import *; Maze('incorrect_input_1.txt')"
+Too much output
+TEST 1 END
+
+TEST 2 BEGIN
+$ python3 -c "from maze import *; Maze('incorrect_input_2.txt')"
+Too much output
+TEST 2 END
+
+TEST 3 BEGIN
+$ python3 -c "from maze import *; Maze('not_a_maze_1.txt')"
+Too much output
+TEST 3 END
+
+TEST 4 BEGIN
+$ python3 -c "from maze import *; Maze('not_a_maze_2.txt')"
+Too much output
+TEST 4 END
+
+TEST 5 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_1.txt'); maze.analyse()"
+Too much output
+TEST 5 END
+
+TEST 6 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_2.txt'); maze.analyse()"
+Too much output
+TEST 6 END
+
+TEST 7 BEGIN
+$ python3 -c "from maze import *; maze = Maze('labyrinth.txt'); maze.analyse()"
+Too much output
+TEST 7 END
+
+TEST 8 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_1.txt'); maze.display()"; cat maze_1.tex
+Too much output
+TEST 8 END
+
+TEST 9 BEGIN
+$ python3 -c "from maze import *; maze = Maze('maze_2.txt'); maze.display()"; cat maze_2.tex
+Too much output
+TEST 9 END
+
+TEST 10 BEGIN
+$ python3 -c "from maze import *; maze = Maze('labyrinth.txt'); maze.display()"; cat labyrinth.tex
+Too much output
+TEST 10 END
+

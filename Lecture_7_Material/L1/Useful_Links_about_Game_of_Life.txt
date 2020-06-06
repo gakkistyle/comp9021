@@ -1,0 +1,14 @@
+Conway's Game of Life
+https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life
+
+
+Gun (cellular automaton)
+https://en.wikipedia.org/wiki/Gun_(cellular_automaton)
+
+
+nbtutor 1.0.4
+https://pypi.org/project/nbtutor/
+
+
+Online Python Tutor
+http://pythontutor.com/visualize.html#mode=edit

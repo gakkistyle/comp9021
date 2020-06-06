@@ -1,0 +1,425 @@
+TEST 1 BEGIN
+$ echo 34 2 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 34 2
+Here is the grid that has been generated:
+    1 0 0 0 1 1 0 1 1 1
+    0 0 0 1 1 0 0 0 0 1
+    1 0 1 0 1 1 1 1 0 0
+    1 0 0 1 1 0 0 0 0 1
+    1 1 0 1 0 0 1 1 1 0
+    1 1 1 1 0 1 1 0 0 0
+    1 1 0 1 0 1 1 0 1 1
+    1 1 0 0 0 1 1 1 0 0
+    1 1 1 1 1 0 1 0 0 1
+    0 1 0 1 0 1 0 1 0 1
+The largest parallelogram with horizontal sides has a size of 10.
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 40 2 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 40 2
+Here is the grid that has been generated:
+    1 0 0 1 0 0 1 1 1 0
+    0 0 0 1 0 0 1 0 1 1
+    0 0 1 0 1 1 0 0 1 0
+    1 1 1 0 0 1 1 0 0 0
+    0 0 1 1 0 0 0 1 1 0
+    1 1 1 1 0 0 0 0 1 0
+    1 0 1 0 0 1 1 0 0 1
+    0 0 0 1 1 0 0 1 0 0
+    0 0 0 0 0 0 1 1 1 1
+    1 0 0 1 0 0 0 1 0 1
+The largest parallelogram with horizontal sides has a size of 4.
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 60 2 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 60 2
+Here is the grid that has been generated:
+    1 1 0 1 0 1 1 1 0 0
+    0 0 1 0 0 0 1 0 0 1
+    0 0 0 1 0 0 0 1 0 1
+    0 0 0 1 0 0 0 1 1 1
+    1 0 0 0 0 0 0 0 1 1
+    1 1 0 1 1 1 0 1 0 1
+    1 0 0 0 1 0 1 0 1 0
+    1 0 0 0 0 0 1 1 1 0
+    0 0 1 1 0 0 1 1 1 1
+    0 0 1 1 0 0 1 1 0 0
+The largest parallelogram with horizontal sides has a size of 6.
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 95 3 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 95 3
+Here is the grid that has been generated:
+    1 1 1 1 0 1 0 0 0 1
+    0 1 1 0 0 1 1 1 1 0
+    1 1 0 1 1 1 1 1 0 0
+    0 1 1 1 0 1 1 1 1 1
+    1 0 0 1 0 1 1 1 1 1
+    0 0 1 1 1 1 1 1 1 1
+    0 1 1 1 0 0 0 1 0 0
+    0 1 1 0 1 1 1 1 1 0
+    1 1 1 1 1 1 1 0 1 1
+    0 1 1 0 1 1 1 1 1 0
+The largest parallelogram with horizontal sides has a size of 15.
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 100 3 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 100 3
+Here is the grid that has been generated:
+    0 1 1 0 1 1 1 1 1 1
+    0 1 0 0 1 1 1 0 1 1
+    0 1 0 1 0 0 0 0 1 1
+    1 1 0 1 1 1 1 1 0 1
+    1 0 0 0 1 1 0 1 0 0
+    0 0 1 0 1 1 1 0 1 1
+    0 1 0 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 0
+    1 1 1 1 0 1 1 1 1 1
+    1 1 0 0 1 1 1 0 0 1
+The largest parallelogram with horizontal sides has a size of 12.
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 352 3 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 352 3
+Here is the grid that has been generated:
+    1 0 1 0 1 1 0 1 0 1
+    0 0 1 1 1 1 0 0 0 0
+    0 1 1 1 0 0 1 1 0 1
+    1 1 0 1 1 0 1 1 1 1
+    0 1 1 1 1 0 1 1 0 1
+    1 1 0 1 1 0 1 1 1 0
+    1 1 1 0 1 1 1 1 1 1
+    0 1 1 0 1 0 1 1 1 0
+    0 1 0 0 1 1 1 1 0 0
+    0 1 1 1 1 0 0 0 1 0
+The largest parallelogram with horizontal sides has a size of 14.
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 114 4 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 114 4
+Here is the grid that has been generated:
+    1 0 1 1 0 1 1 0 1 1
+    0 0 1 1 0 1 1 1 1 1
+    1 1 1 1 0 0 1 1 1 1
+    1 1 1 0 1 0 1 1 0 1
+    1 0 1 1 0 1 1 1 1 0
+    1 1 1 1 1 0 1 1 0 1
+    0 1 0 1 0 0 1 1 1 0
+    1 1 1 1 1 1 1 1 0 0
+    1 1 1 0 1 0 1 1 1 1
+    1 1 1 1 0 0 1 1 1 1
+The largest parallelogram with horizontal sides has a size of 18.
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 136 4 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 136 4
+Here is the grid that has been generated:
+    1 0 1 1 1 1 1 1 1 0
+    1 0 0 1 1 1 1 1 1 0
+    0 1 0 0 1 1 1 1 1 1
+    1 0 1 1 0 0 1 1 1 1
+    0 1 1 0 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 0 1 1 1 1
+    0 1 1 0 1 1 1 1 0 0
+    1 0 1 1 1 0 1 1 1 0
+    1 1 0 1 1 1 0 1 0 0
+The largest parallelogram with horizontal sides has a size of 21.
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 356 4 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 356 4
+Here is the grid that has been generated:
+    0 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 0 1 0 0 1 0 1 1 1
+    1 1 1 1 0 0 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 1
+    1 1 1 1 1 1 1 1 0 1
+    0 0 1 0 1 1 1 0 1 1
+    0 0 1 1 1 1 1 0 1 1
+    1 1 0 1 1 1 1 1 1 1
+The largest parallelogram with horizontal sides has a size of 24.
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 155 5 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 155 5
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    1 0 1 0 1 0 1 1 1 0
+    0 1 0 1 1 1 1 0 1 1
+    0 1 1 1 0 0 1 1 1 0
+    1 1 1 1 1 0 0 1 1 0
+    1 1 1 1 1 1 1 0 1 1
+    1 1 1 1 1 1 1 1 1 0
+    1 1 0 1 1 1 1 0 1 1
+    0 1 1 1 1 1 1 0 1 1
+    1 1 1 1 1 1 1 1 1 0
+The largest parallelogram with horizontal sides has a size of 20.
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 186 5 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 186 5
+Here is the grid that has been generated:
+    1 1 1 1 0 1 0 0 1 1
+    1 0 1 1 0 1 1 1 1 1
+    1 0 1 1 0 1 0 0 0 1
+    1 1 1 0 0 1 1 1 0 1
+    0 1 1 1 0 1 1 1 1 1
+    1 1 1 1 1 1 1 0 1 0
+    1 1 1 1 1 1 1 0 1 1
+    1 1 1 1 1 1 0 0 1 1
+    1 1 0 0 1 1 1 1 1 0
+    1 0 1 1 0 1 1 1 0 0
+The largest parallelogram with horizontal sides has a size of 18.
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 457 5 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 457 5
+Here is the grid that has been generated:
+    1 1 1 1 1 1 0 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    0 0 1 1 0 1 0 0 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 0 1 1 1 0
+    1 1 1 1 1 1 0 1 1 1
+    1 1 1 1 1 0 1 1 1 1
+    1 1 1 1 0 1 1 1 0 1
+    1 1 1 1 1 1 1 1 1 0
+    1 1 1 1 1 0 0 1 1 1
+The largest parallelogram with horizontal sides has a size of 28.
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 201 6 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 201 6
+Here is the grid that has been generated:
+    0 1 1 1 0 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 0 1 0
+    1 1 1 1 1 1 1 1 0 1
+    0 1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 0
+    1 1 1 0 1 1 0 1 1 1
+    1 1 1 0 1 1 1 1 1 0
+    1 1 1 1 1 1 0 1 1 1
+    1 1 1 1 0 0 1 1 1 1
+The largest parallelogram with horizontal sides has a size of 25.
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo 211 6 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 211 6
+Here is the grid that has been generated:
+    1 1 1 1 0 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 0 1 1 1 1
+    0 1 1 1 1 0 1 1 1 0
+    1 1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 0
+    1 1 1 1 1 1 1 1 0 1
+The largest parallelogram with horizontal sides has a size of 30.
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo 465 6 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 465 6
+Here is the grid that has been generated:
+    1 1 0 1 0 1 1 1 1 1
+    1 1 0 1 1 1 1 1 1 1
+    1 1 1 1 1 1 0 1 1 1
+    1 1 1 1 0 1 1 1 0 1
+    1 1 1 1 1 0 0 0 1 1
+    1 1 1 1 1 1 1 0 1 0
+    1 1 1 1 1 1 1 1 1 0
+    1 1 1 1 1 0 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 1
+The largest parallelogram with horizontal sides has a size of 32.
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo 212 7 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 212 7
+Here is the grid that has been generated:
+    1 1 0 1 1 0 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1
+    0 1 1 1 0 1 1 0 1 0
+    1 1 0 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 0
+    0 1 1 1 1 1 1 1 1 1
+    1 1 1 0 0 0 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 0 1
+    1 0 1 1 1 1 1 1 1 0
+The largest parallelogram with horizontal sides has a size of 21.
+TEST 16 END
+
+TEST 17 BEGIN
+$ echo 66 7 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 66 7
+Here is the grid that has been generated:
+    0 1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 1
+    1 1 0 1 1 1 1 1 1 1
+    1 1 1 0 1 0 1 1 1 1
+    0 0 1 1 1 1 1 1 1 1
+    1 1 1 1 1 0 1 1 1 1
+    1 1 1 0 1 0 1 1 0 1
+    0 1 1 1 1 0 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1 0
+The largest parallelogram with horizontal sides has a size of 24.
+TEST 17 END
+
+TEST 18 BEGIN
+$ echo 87 7 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 87 7
+Here is the grid that has been generated:
+    1 1 1 1 1 1 0 1 1 1
+    1 1 1 1 1 0 1 0 1 1
+    1 0 1 1 1 1 1 0 1 1
+    1 1 1 1 1 0 1 0 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 0 1 1 1
+    1 0 1 1 1 1 1 1 0 0
+    1 1 0 1 1 1 0 1 1 1
+    1 1 1 0 1 1 1 1 1 1
+The largest parallelogram with horizontal sides has a size of 20.
+TEST 18 END
+
+TEST 19 BEGIN
+$ echo 234 30 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 234 30
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 0 1 1
+    1 1 1 1 1 1 0 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+The largest parallelogram with horizontal sides has a size of 42.
+TEST 19 END
+
+TEST 20 BEGIN
+$ echo 234 40 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 234 40
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 0 1 1
+    1 1 1 1 1 1 1 0 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 0 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+The largest parallelogram with horizontal sides has a size of 49.
+TEST 20 END
+
+TEST 21 BEGIN
+$ echo 345 50 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 345 50
+Here is the grid that has been generated:
+    1 1 0 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 0 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+The largest parallelogram with horizontal sides has a size of 70.
+TEST 21 END
+
+TEST 22 BEGIN
+$ echo 234 60 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 234 60
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+The largest parallelogram with horizontal sides has a size of 56.
+TEST 22 END
+
+TEST 23 BEGIN
+$ echo 54 70 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 54 70
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+The largest parallelogram with horizontal sides has a size of 60.
+TEST 23 END
+
+TEST 24 BEGIN
+$ echo 427 70 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 427 70
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 0 1 1
+    1 1 1 1 1 1 0 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 0
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+The largest parallelogram with horizontal sides has a size of 72.
+TEST 24 END
+
+TEST 25 BEGIN
+$ echo 753 80 | python3 quiz_6.py
+Enter two integers, the second one being strictly positive: 753 80
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    0 1 1 1 0 1 1 1 1 1
+The largest parallelogram with horizontal sides has a size of 90.
+TEST 25 END
+

@@ -1,0 +1,331 @@
+The maze has 12 gates.
+The maze has 8 sets of walls that are all connected.
+The maze has 2 inaccessible inner points.
+The maze has 4 accessible areas.
+The maze has 3 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 20 gates.
+The maze has 4 sets of walls that are all connected.
+The maze has 4 inaccessible inner points.
+The maze has 13 accessible areas.
+The maze has 11 sets of accessible cul-de-sacs that are all connected.
+The maze has 5 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 8 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+maze.MazeError: Incorrect input.
+
+maze.MazeError: Incorrect input.
+
+maze.MazeError: Incorrect input.
+
+maze.MazeError: Incorrect input.
+
+maze.MazeError: Incorrect input.
+
+maze.MazeError: Incorrect input.
+
+maze.MazeError: Input does not represent a maze.
+
+maze.MazeError: Input does not represent a maze.
+
+maze.MazeError: Input does not represent a maze.
+
+maze.MazeError: Input does not represent a maze.
+
+The maze has 4 gates.
+The maze has no wall.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has no accessible cul-de-sac.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has no gate.
+The maze has walls that are all connected.
+The maze has 2 inaccessible inner points.
+The maze has no accessible area.
+The maze has no accessible cul-de-sac.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 8 gates.
+The maze has walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has 2 accessible areas.
+The maze has no accessible cul-de-sac.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 8 gates.
+The maze has walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has 3 accessible areas.
+The maze has no accessible cul-de-sac.
+The maze has 2 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has 15 inaccessible inner points.
+The maze has a unique accessible area.
+The maze has no accessible cul-de-sac.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 6 gates.
+The maze has walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has 3 accessible areas.
+The maze has accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 10 gates.
+The maze has walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has 5 accessible areas.
+The maze has accessible cul-de-sacs that are all connected.
+The maze has 3 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 29 gates.
+The maze has 21 sets of walls that are all connected.
+The maze has 12 inaccessible inner points.
+The maze has 8 accessible areas.
+The maze has 26 sets of accessible cul-de-sacs that are all connected.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 2 gates.
+The maze has 3 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 3 sets of accessible cul-de-sacs that are all connected.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 45 gates.
+The maze has 41 sets of walls that are all connected.
+The maze has 91 inaccessible inner points.
+The maze has 17 accessible areas.
+The maze has 98 sets of accessible cul-de-sacs that are all connected.
+The maze has 4 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 80 gates.
+The maze has 72 sets of walls that are all connected.
+The maze has 195 inaccessible inner points.
+The maze has 26 accessible areas.
+The maze has 180 sets of accessible cul-de-sacs that are all connected.
+The maze has 2 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 6 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 3 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 8 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 2 gates.
+The maze has 2 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has 32 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 140 gates.
+The maze has no wall.
+The maze has no inaccessible inner point.
+The maze has a unique accessible area.
+The maze has no accessible cul-de-sac.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 76 gates.
+The maze has 28 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has 40 accessible areas.
+The maze has 22 sets of accessible cul-de-sacs that are all connected.
+The maze has 17 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 67 gates.
+The maze has 24 sets of walls that are all connected.
+The maze has no inaccessible inner point.
+The maze has 30 accessible areas.
+The maze has 15 sets of accessible cul-de-sacs that are all connected.
+The maze has 14 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 31 gates.
+The maze has walls that are all connected.
+The maze has 1169 inaccessible inner points.
+The maze has 31 accessible areas.
+The maze has 31 sets of accessible cul-de-sacs that are all connected.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 60 gates.
+The maze has 50 sets of walls that are all connected.
+The maze has 392 inaccessible inner points.
+The maze has 28 accessible areas.
+The maze has 139 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 66 gates.
+The maze has 43 sets of walls that are all connected.
+The maze has 305 inaccessible inner points.
+The maze has 32 accessible areas.
+The maze has 167 sets of accessible cul-de-sacs that are all connected.
+The maze has 3 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 68 gates.
+The maze has 62 sets of walls that are all connected.
+The maze has 229 inaccessible inner points.
+The maze has 29 accessible areas.
+The maze has 167 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 73 gates.
+The maze has 49 sets of walls that are all connected.
+The maze has 289 inaccessible inner points.
+The maze has 33 accessible areas.
+The maze has 170 sets of accessible cul-de-sacs that are all connected.
+The maze has 6 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 71 gates.
+The maze has 45 sets of walls that are all connected.
+The maze has 290 inaccessible inner points.
+The maze has 33 accessible areas.
+The maze has 160 sets of accessible cul-de-sacs that are all connected.
+The maze has 6 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 71 gates.
+The maze has 43 sets of walls that are all connected.
+The maze has 393 inaccessible inner points.
+The maze has 31 accessible areas.
+The maze has 142 sets of accessible cul-de-sacs that are all connected.
+The maze has 6 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 78 gates.
+The maze has 70 sets of walls that are all connected.
+The maze has 233 inaccessible inner points.
+The maze has 24 accessible areas.
+The maze has 170 sets of accessible cul-de-sacs that are all connected.
+The maze has 4 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 79 gates.
+The maze has 64 sets of walls that are all connected.
+The maze has 286 inaccessible inner points.
+The maze has 27 accessible areas.
+The maze has 165 sets of accessible cul-de-sacs that are all connected.
+The maze has 2 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 69 gates.
+The maze has 80 sets of walls that are all connected.
+The maze has 302 inaccessible inner points.
+The maze has 21 accessible areas.
+The maze has 152 sets of accessible cul-de-sacs that are all connected.
+The maze has 4 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 66 gates.
+The maze has 53 sets of walls that are all connected.
+The maze has 183 inaccessible inner points.
+The maze has 29 accessible areas.
+The maze has 174 sets of accessible cul-de-sacs that are all connected.
+The maze has 4 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 72 gates.
+The maze has 40 sets of walls that are all connected.
+The maze has 551 inaccessible inner points.
+The maze has 30 accessible areas.
+The maze has 124 sets of accessible cul-de-sacs that are all connected.
+The maze has 5 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 72 gates.
+The maze has 72 sets of walls that are all connected.
+The maze has 221 inaccessible inner points.
+The maze has 18 accessible areas.
+The maze has 179 sets of accessible cul-de-sacs that are all connected.
+The maze has 4 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 65 gates.
+The maze has 61 sets of walls that are all connected.
+The maze has 384 inaccessible inner points.
+The maze has 19 accessible areas.
+The maze has 155 sets of accessible cul-de-sacs that are all connected.
+The maze has a unique entry-exit path with no intersection not to cul-de-sacs.
+
+The maze has 78 gates.
+The maze has 71 sets of walls that are all connected.
+The maze has 243 inaccessible inner points.
+The maze has 31 accessible areas.
+The maze has 184 sets of accessible cul-de-sacs that are all connected.
+The maze has 2 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 74 gates.
+The maze has 82 sets of walls that are all connected.
+The maze has 192 inaccessible inner points.
+The maze has 17 accessible areas.
+The maze has 148 sets of accessible cul-de-sacs that are all connected.
+The maze has 2 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 71 gates.
+The maze has 75 sets of walls that are all connected.
+The maze has 226 inaccessible inner points.
+The maze has 31 accessible areas.
+The maze has 181 sets of accessible cul-de-sacs that are all connected.
+The maze has 2 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 71 gates.
+The maze has 54 sets of walls that are all connected.
+The maze has 261 inaccessible inner points.
+The maze has 34 accessible areas.
+The maze has 160 sets of accessible cul-de-sacs that are all connected.
+The maze has 5 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 65 gates.
+The maze has 66 sets of walls that are all connected.
+The maze has 419 inaccessible inner points.
+The maze has 27 accessible areas.
+The maze has 138 sets of accessible cul-de-sacs that are all connected.
+The maze has 2 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 63 gates.
+The maze has 61 sets of walls that are all connected.
+The maze has 288 inaccessible inner points.
+The maze has 25 accessible areas.
+The maze has 167 sets of accessible cul-de-sacs that are all connected.
+The maze has 6 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 72 gates.
+The maze has 59 sets of walls that are all connected.
+The maze has 313 inaccessible inner points.
+The maze has 25 accessible areas.
+The maze has 149 sets of accessible cul-de-sacs that are all connected.
+The maze has 2 entry-exit paths with no intersections not to cul-de-sacs.
+
+The maze has 78 gates.
+The maze has 69 sets of walls that are all connected.
+The maze has 220 inaccessible inner points.
+The maze has 34 accessible areas.
+The maze has 175 sets of accessible cul-de-sacs that are all connected.
+The maze has 4 entry-exit paths with no intersections not to cul-de-sacs.
+
+maze.MazeError: Incorrect input.
+
+maze.MazeError: Incorrect input.
+
+The maze has a single gate.
+The maze has 2 sets of walls that are all connected.
+The maze has 81 inaccessible inner points.
+The maze has a unique accessible area.
+The maze has no accessible cul-de-sac.
+The maze has no entry-exit path with no intersection not to cul-de-sacs.

@@ -1,0 +1,256 @@
+TEST 1 BEGIN
+$ echo 251662275 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 251662275
+  In base 2, 251662275 reads as 1111000000000000111111000011
+  It encodes:  [12345]
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo  [12345] | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: [12345]
+  In base 2, [12345] reads as [11000000111001]
+  It is encoded by 251662275
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 202312908 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 202312908
+  In base 2, 202312908 reads as 1100000011110000110011001100
+  It encodes:  [9002]
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo [9002] | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: [9002]
+  In base 2, [9002] reads as [10001100101010]
+  It is encoded by 202312908
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 134030414330895 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 134030414330895
+  In base 2, 134030414330895 reads as 11110011110011001100011001111000011110000001111
+  It encodes:  [874, 5731]
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo [874, 5731] | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: [874, 5731]
+  In base 2, [874, 5731] reads as [1101101010, 1011001100011]
+  It is encoded by 134030414330895
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 133728018641088 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 133728018641088
+  In base 2, 133728018641088 reads as 11110011001111111111011000011000011000011000000
+  It encodes:  [863, 4680]
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo  [863, 4680] | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: [863, 4680]
+  In base 2, [863, 4680] reads as [1101011111, 1001001001000]
+  It is encoded by 133728018641088
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 542810029311 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 542810029311
+  In base 2, 542810029311 reads as 111111001100001111111111011110011111111
+  It encodes:  [3743, 111]
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo [3743, 111] | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: [3743, 111]
+  In base 2, [3743, 111] reads as [111010011111, 1101111]
+  It is encoded by 542810029311
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 31472688 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 31472688
+  In base 2, 31472688 reads as 1111000000011110000110000
+  It encodes:  [24, 100]
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo  [24, 100] | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: [24, 100]
+  In base 2, [24, 100] reads as [11000, 1100100]
+  It is encoded by 31472688
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 4129637011263 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 4129637011263
+  In base 2, 4129637011263 reads as 111100000110000001100011000000111100111111
+  It encodes:  [12, 34, 567]
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo [12, 34, 567] | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: [12, 34, 567]
+  In base 2, [12, 34, 567] reads as [1100, 100010, 1000110111]
+  It is encoded by 4129637011263
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo 17961038041070796 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 17961038041070796
+  In base 2, 17961038041070796 reads as 111111110011110111100000001100001111000011110011001100
+  It encodes:  [123, 24, 9834]
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo  [123, 24, 9834] | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: [123, 24, 9834]
+  In base 2, [123, 24, 9834] reads as [1111011, 11000, 10011001101010]
+  It is encoded by 17961038041070796
+TEST 16 END
+
+TEST 17 BEGIN
+$ echo 898779 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 898779
+  In base 2, 898779 reads as 11011011011011011011
+  It encodes:  [1, 1, 1, 1, 1, 1, 1]
+TEST 17 END
+
+TEST 18 BEGIN
+$ echo [1, 1, 1, 1, 1, 1, 1] | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: [1, 1, 1, 1, 1, 1, 1]
+  In base 2, [1, 1, 1, 1, 1, 1, 1] reads as [1, 1, 1, 1, 1, 1, 1]
+  It is encoded by 898779
+TEST 18 END
+
+TEST 19 BEGIN
+$ echo 2047146086558054337200079 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 2047146086558054337200079
+  In base 2, 2047146086558054337200079 reads as 110110001100000000000001100000000001101111011110000011001100111111011111111001111
+  It encodes:  [1, 2, 64, 65, 3, 12, 87, 123]
+TEST 19 END
+
+TEST 20 BEGIN
+$ echo  [1, 2, 64, 65, 3, 12, 87, 123] | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: [1, 2, 64, 65, 3, 12, 87, 123]
+  In base 2, [1, 2, 64, 65, 3, 12, 87, 123] reads as [1, 10, 1000000, 1000001, 11, 1100, 1010111, 1111011]
+  It is encoded by 2047146086558054337200079
+TEST 20 END
+
+TEST 21 BEGIN
+$ echo 1247376748325276032424589415561018371 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 1247376748325276032424589415561018371
+  In base 2, 1247376748325276032424589415561018371 reads as 111100000011110001101100000000110110110000011011000011001111001111000011011000110000001100011111111001111011110000000011
+  It encodes:  [198, 1, 33, 1, 4, 1, 4825, 2, 34, 123, 97]
+TEST 21 END
+
+TEST 22 BEGIN
+$ echo [198, 1, 33, 1, 4, 1, 4825, 2, 34, 123, 97] | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: [198, 1, 33, 1, 4, 1, 4825, 2, 34, 123, 97]
+  In base 2, [198, 1, 33, 1, 4, 1, 4825, 2, 34, 123, 97] reads as [11000110, 1, 100001, 1, 100, 1, 1001011011001, 10, 100010, 1111011, 1100001]
+  It is encoded by 1247376748325276032424589415561018371
+TEST 22 END
+
+TEST 23 BEGIN
+$ echo 49438215464691914483381437939814643665842116054365813542128 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 49438215464691914483381437939814643665842116054365813542128
+  In base 2, 49438215464691914483381437939814643665842116054365813542128 reads as 111111000000011111100001101100111111011110000000110011110011000110011110011110110011001111000011011001100111100110001100111100111100000001100111111000000111101100001100000011110110000110011110000
+  It encodes:  [56, 57, 23, 24, 90, 91, 345, 346, 728, 739, 291, 300]
+TEST 23 END
+
+TEST 24 BEGIN
+$ echo [56, 57, 23, 24, 90, 91, 345, 346, 728, 739, 291, 300] | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: [56, 57, 23, 24, 90, 91, 345, 346, 728, 739, 291, 300]
+  In base 2, [56, 57, 23, 24, 90, 91, 345, 346, 728, 739, 291, 300] reads as [111000, 111001, 10111, 11000, 1011010, 1011011, 101011001, 101011010, 1011011000, 1011100011, 100100011, 100101100]
+  It is encoded by 49438215464691914483381437939814643665842116054365813542128
+TEST 24 END
+
+TEST 25 BEGIN
+$ echo 25559527 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 25559527
+  In base 2, 25559527 reads as 1100001100000000111100111
+Incorrect encoding!
+TEST 25 END
+
+TEST 26 BEGIN
+$ echo 25559526 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 25559526
+  In base 2, 25559526 reads as 1100001100000000111100110
+Incorrect encoding!
+TEST 26 END
+
+TEST 27 BEGIN
+$ echo 1703832 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 1703832
+  In base 2, 1703832 reads as 110011111111110011000
+Incorrect encoding!
+TEST 27 END
+
+TEST 28 BEGIN
+$ echo 1703833 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 1703833
+  In base 2, 1703833 reads as 110011111111110011001
+Incorrect encoding!
+TEST 28 END
+
+TEST 29 BEGIN
+$ echo 264345963760 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 264345963760
+  In base 2, 264345963760 reads as 11110110001100001111110100110011110000
+Incorrect encoding!
+TEST 29 END
+
+TEST 30 BEGIN
+$ echo 1338822403 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 1338822403
+  In base 2, 1338822403 reads as 1001111110011001100111100000011
+Incorrect encoding!
+TEST 30 END
+
+TEST 31 BEGIN
+$ echo 265316961520 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 265316961520
+  In base 2, 265316961520 reads as 11110111000110000111111000110011110000
+Incorrect encoding!
+TEST 31 END
+
+TEST 32 BEGIN
+$ echo 6972612355 | python3 quiz_5.py
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers: 6972612355
+  In base 2, 6972612355 reads as 110011111100110011001111100000011
+Incorrect encoding!
+TEST 32 END
+

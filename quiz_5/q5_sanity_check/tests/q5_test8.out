@@ -1,0 +1,3 @@
+Input either a strictly positive integer
+or a nonempty list of strictly positive integers:   In base 2, 857310204 reads as 110011000110011000001111111100
+  It encodes:  [10, 20, 30]

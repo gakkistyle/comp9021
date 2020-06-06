@@ -1,0 +1,7 @@
+maze_1
+maze_2
+not_a_maze_1
+not_a_maze_2
+labyrinth
+incorrect_input_1
+incorrect_input_2

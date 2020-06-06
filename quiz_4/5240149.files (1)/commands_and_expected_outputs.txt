@@ -1,0 +1,140 @@
+TEST 1 BEGIN
+$ echo -e '0\nabcv' | python3 quiz_4.py
+Input an arity : 0
+Input a word: abcv
+The word is valid.
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo -e '0\nabcv(as, sd)' | python3 quiz_4.py
+Input an arity : 0
+Input a word: abcv(as, sd)
+The word is invalid.
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo -e '1\ngsdfsdf(__dfa)' | python3 quiz_4.py
+Input an arity : 1
+Input a word: gsdfsdf(__dfa)
+The word is valid.
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo -e '1\nsdgs' | python3 quiz_4.py
+Input an arity : 1
+Input a word: sdgs
+The word is invalid.
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo -e '1\ngsdfsdf(  _vbngn ( h(__dfa)))' | python3 quiz_4.py
+Input an arity : 1
+Input a word: gsdfsdf( _vbngn ( h(__dfa)))
+The word is valid.
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo -e '1\ngsdfsdf(vbngn(sgfhjh(h(vbn, dfa))))' | python3 quiz_4.py
+Input an arity : 1
+Input a word: gsdfsdf(vbngn(sgfhjh(h(vbn, dfa))))
+The word is invalid.
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo -e '1\nf(_(f(h(g(l(g(q(k(f(c))))))) )) )' | python3 quiz_4.py
+Input an arity : 1
+Input a word: f(_(f(h(g(l(g(q(k(f(c))))))) )) )
+The word is valid.
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo -e '1\nf(_(f(h(g(l(g(q(k(f(c, ))))))) )) )' | python3 quiz_4.py
+Input an arity : 1
+Input a word: f(_(f(h(g(l(g(q(k(f(c, ))))))) )) )
+The word is invalid.
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo -e '2\nadsa(df(vdfs,dsf(df,   df))   ,  sdf(sdfg, hj)       )' | python3 quiz_4.py
+Input an arity : 2
+Input a word: adsa(df(vdfs,dsf(df, df)) , sdf(sdfg, hj) )
+The word is valid.
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo -e '2\nadsa(df(vdfs,dsf(df,   df))  ,  sdf(sdfg, fg(hj))       )' | python3 quiz_4.py
+Input an arity : 2
+Input a word: adsa(df(vdfs,dsf(df, df)) , sdf(sdfg, fg(hj)) )
+The word is invalid.
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo -e '2\nkl(jhg(hj(bn(cv,bv),sgf),gf),hj(gdf,cbnv))' | python3 quiz_4.py
+Input an arity : 2
+Input a word: kl(jhg(hj(bn(cv,bv),sgf),gf),hj(gdf,cbnv))
+The word is valid.
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo -e '2\nkl(jhg(hj(bn(cv,bv),sgf),gf),hj(gdf,cbnv)),' | python3 quiz_4.py
+Input an arity : 2
+Input a word: kl(jhg(hj(bn(cv,bv),sgf),gf),hj(gdf,cbnv)),
+The word is invalid.
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo -e '3\nb(d(df,fg,fg),d,fgh(dfg(f,fg,df(df,dfs,adf)),df(df,df,gh),dfg))' | python3 quiz_4.py
+Input an arity : 3
+Input a word: b(d(df,fg,fg),d,fgh(dfg(f,fg,df(df,dfs,adf)),df(df,df,gh),dfg))
+The word is valid.
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo -e '3\nb(d(df,fg,fg),d,fgh(dfg(f,fg,df(df,dfs,ad,f)),df(df,df,gh),dfg))' | python3 quiz_4.py
+Input an arity : 3
+Input a word: b(d(df,fg,fg),d,fgh(dfg(f,fg,df(df,dfs,ad,f)),df(df,df,gh),dfg))
+The word is invalid.
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo -e '3\na(a(d,d(d,g,j),g),d(d,d(d,g,f(f,g,h)),d)  ,f(g(d,g,d),g, d(a,dm,fg(f,g,a))))' | python3 quiz_4.py
+Input an arity : 3
+Input a word: a(a(d,d(d,g,j),g),d(d,d(d,g,f(f,g,h)),d) ,f(g(d,g,d),g, d(a,dm,fg(f,g,a))))
+The word is valid.
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo -e '3\na(a(d,d(d,g,j),g),d(d,d(d,g,f(f,g,h)),d)  ,f(g(d,g,d,f),g, d(a,dm,fg(f,g,a))))' | python3 quiz_4.py
+Input an arity : 3
+Input a word: a(a(d,d(d,g,j),g),d(d,d(d,g,f(f,g,h)),d) ,f(g(d,g,d,f),g, d(a,dm,fg(f,g,a))))
+The word is invalid.
+TEST 16 END
+
+TEST 17 BEGIN
+$ echo -e '4\nfds(bd,  hd(dfs, dsf, erty( df , dfs( adsf, dfs,_,_), ads, fghj), asd),  dfg ( dfs, fg,fg , dfs), sdf )'  | python3 quiz_4.py
+Input an arity : 4
+Input a word: fds(bd, hd(dfs, dsf, erty( df , dfs( adsf, dfs,_,_), ads, fghj), asd), dfg ( dfs, fg,fg , dfs), sdf )
+The word is valid.
+TEST 17 END
+
+TEST 18 BEGIN
+$ echo -e '4\nfds(bd,  hd(dfs, dsf, erty( df , dfs( adsf, dfs, ,_), ads, fghj), asd),  dfg ( dfs, fg,fg , dfs), sdf )'  | python3 quiz_4.py
+Input an arity : 4
+Input a word: fds(bd, hd(dfs, dsf, erty( df , dfs( adsf, dfs, ,_), ads, fghj), asd), dfg ( dfs, fg,fg , dfs), sdf )
+The word is invalid.
+TEST 18 END
+
+TEST 19 BEGIN
+$ echo -e '4\nf(f(d,f, f(d,f, f(d,f, g, g), g), g),f, f(d,f(d,f, f(d,f, f(d,f(d,f, g, g), g, g), f(d,f, f(d,f, f(d,f(d,f, g, g), g, f(d,f, g, g)), g), g)), g), f(d,f(d,f, g, g), g, g), g), f(d, f(d,f, g, f(d,f, f(d,f, g, g), g)), g, f(f(f(d,f, g, g),f, f(d,f, g, g), f(d,f, g, g)),f, g, f(d,f(d,f, g, g), g, f(d,f, g, g)))))' | python3 quiz_4.py
+Input an arity : 4
+Input a word: f(f(d,f, f(d,f, f(d,f, g, g), g), g),f, f(d,f(d,f, f(d,f, f(d,f(d,f, g, g), g, g), f(d,f, f(d,f, f(d,f(d,f, g, g), g, f(d,f, g, g)), g), g)), g), f(d,f(d,f, g, g), g, g), g), f(d, f(d,f, g, f(d,f, f(d,f, g, g), g)), g, f(f(f(d,f, g, g),f, f(d,f, g, g), f(d,f, g, g)),f, g, f(d,f(d,f, g, g), g, f(d,f, g, g)))))
+The word is valid.
+TEST 19 END
+
+TEST 20 BEGIN
+$ echo -e '4\nf(f(d,f, f(d,f, f(d,f, g, g), g), g),f, f(d,f(d,f, f(d,f, f(d,f(d,f, g, g), g, g), f(d,f, f(d,f, f(d,f(d,f, g, g), g, f(d,f, g, g)), g), g)), g), f(d,f(d,f, g, g), g, g), g), f(d, f(d,f, g, f(d,f, f(d,f, g, g)), g, f(f(f(d,f, g, g),f, f(d,f, g, g), f(d,f, g, g)),f, g, f(d,f(d,f, g, g), g, f(d,f, g, g)))))' | python3 quiz_4.py
+Input an arity : 4
+Input a word: f(f(d,f, f(d,f, f(d,f, g, g), g), g),f, f(d,f(d,f, f(d,f, f(d,f(d,f, g, g), g, g), f(d,f, f(d,f, f(d,f(d,f, g, g), g, f(d,f, g, g)), g), g)), g), f(d,f(d,f, g, g), g, g), g), f(d, f(d,f, g, f(d,f, f(d,f, g, g)), g, f(f(f(d,f, g, g),f, f(d,f, g, g), f(d,f, g, g)),f, g, f(d,f(d,f, g, g), g, f(d,f, g, g)))))
+The word is invalid.
+TEST 20 END
+

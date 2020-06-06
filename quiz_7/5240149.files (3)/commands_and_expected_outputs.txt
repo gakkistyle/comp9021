@@ -1,0 +1,425 @@
+TEST 1 BEGIN
+$ echo 0 100 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 0 100
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+The maximum number of spikes of some shape is: 0
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo 34 9 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 34 9
+Here is the grid that has been generated:
+    1 1 0 1 0 1 1 1 1 1
+    1 1 1 1 1 1 1 0 1 1
+    1 0 1 1 1 0 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1 1
+    1 1 1 1 1 0 1 1 1 0
+The maximum number of spikes of some shape is: 2
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo 44 9 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 44 9
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 0 1
+    1 0 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 0 1 1 1 1 1 1 1
+    1 1 1 0 0 1 0 1 1 1
+    1 1 1 1 1 1 1 0 1 1
+    0 1 0 1 1 1 1 1 1 1
+    1 1 1 1 0 1 0 1 1 1
+    1 0 1 1 1 1 0 1 1 1
+    1 1 0 1 1 1 1 1 1 1
+The maximum number of spikes of some shape is: 2
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo 54 9 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 54 9
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    0 1 0 1 1 0 1 0 1 1
+    1 1 0 1 1 1 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+The maximum number of spikes of some shape is: 1
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo 234 8 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 234 8
+Here is the grid that has been generated:
+    1 1 0 1 1 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1 0
+    1 1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 1 1 1 0 1
+    1 1 1 1 0 1 1 1 1 1
+    1 1 0 0 0 1 1 1 1 1
+    1 1 0 0 0 1 1 0 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 0 1 1 1 1 1 0 1
+    1 1 0 1 1 1 1 1 1 1
+The maximum number of spikes of some shape is: 1
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo 334 8 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 334 8
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 0 1
+    1 0 1 0 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1
+    0 1 1 1 1 0 1 0 0 1
+    1 1 1 1 1 1 1 1 1 0
+    1 0 1 1 1 1 1 1 1 1
+    1 0 1 0 1 1 0 1 1 1
+    1 0 1 0 1 0 1 1 1 1
+    1 1 0 1 1 0 1 1 1 1
+The maximum number of spikes of some shape is: 5
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo 434 8 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 434 8
+Here is the grid that has been generated:
+    1 1 1 1 1 0 1 1 1 1
+    1 1 0 0 1 1 1 1 1 1
+    1 0 1 1 0 1 1 1 1 1
+    0 1 1 1 1 1 1 1 1 0
+    1 0 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 0
+    1 1 1 0 1 1 1 1 0 1
+    1 0 1 0 1 0 0 1 1 0
+    1 0 1 1 1 1 1 1 1 1
+    1 1 1 1 0 0 1 1 1 1
+The maximum number of spikes of some shape is: 4
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo 534 7 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 534 7
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    0 1 0 1 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 0 1
+    1 1 0 1 1 1 0 1 1 1
+    1 0 0 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 0
+    1 1 1 1 1 1 1 1 1 1
+    1 0 1 0 1 1 1 0 1 1
+    1 1 1 1 1 1 1 1 1 1
+The maximum number of spikes of some shape is: 2
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo 634 7 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 634 7
+Here is the grid that has been generated:
+    1 1 1 1 0 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 0 1 0 1
+    1 1 1 1 1 1 1 1 0 1
+    1 0 1 1 1 1 1 1 1 1
+    0 1 1 1 1 1 1 1 1 0
+    1 1 1 1 1 1 1 1 1 0
+    1 0 1 1 1 0 1 1 1 1
+    1 1 1 0 1 1 1 1 1 1
+    1 0 1 1 0 1 1 1 0 1
+The maximum number of spikes of some shape is: 4
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo 734 7 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 734 7
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 1
+    1 1 0 1 1 1 0 1 0 1
+    0 1 1 1 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    0 0 1 1 1 1 1 0 0 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 1
+    1 1 0 1 1 1 0 1 1 0
+    1 1 1 0 1 1 0 1 1 1
+The maximum number of spikes of some shape is: 3
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo 834 6 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 834 6
+Here is the grid that has been generated:
+    1 1 1 1 1 1 0 1 1 0
+    0 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 0 1 1 1 1 1 1 0
+    1 1 1 1 1 1 1 0 1 1
+    1 0 1 1 1 1 1 0 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 1
+    1 0 1 1 1 1 0 1 1 1
+    1 1 0 1 1 1 1 1 1 1
+The maximum number of spikes of some shape is: 2
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo 934 6 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 934 6
+Here is the grid that has been generated:
+    1 1 0 0 0 1 1 1 1 1
+    1 1 1 1 1 1 1 1 0 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 1 1 1 1 0
+    0 1 1 1 1 1 1 1 1 1
+    1 0 1 1 1 0 1 1 1 1
+    1 1 1 1 1 1 1 0 1 1
+    1 1 1 1 0 1 1 1 1 1
+    1 1 1 1 0 1 1 1 1 0
+    1 1 1 1 1 1 1 1 1 1
+The maximum number of spikes of some shape is: 2
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo 1034 6 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 1034 6
+Here is the grid that has been generated:
+    0 1 0 0 0 1 0 1 1 1
+    1 1 1 0 1 0 1 1 1 1
+    1 1 1 1 1 0 1 1 1 0
+    1 1 1 1 1 0 0 1 1 1
+    1 1 1 0 1 1 1 1 1 1
+    1 1 1 0 1 1 1 1 1 1
+    1 1 1 1 1 0 1 1 1 1
+    0 1 1 1 1 1 1 1 1 1
+    1 0 0 1 1 1 1 1 0 1
+    1 0 1 0 1 1 1 0 1 1
+The maximum number of spikes of some shape is: 3
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo 1134 5 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 1134 5
+Here is the grid that has been generated:
+    0 1 1 1 1 1 1 1 1 0
+    1 1 1 1 0 1 1 1 1 1
+    1 1 0 1 1 1 1 1 0 1
+    0 1 1 1 0 1 1 1 1 1
+    0 1 1 1 1 1 0 0 1 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 1 1 0 0 1 1 1
+    1 1 0 1 1 0 0 1 1 1
+    1 1 1 0 1 0 0 0 1 0
+    1 1 1 0 1 1 1 0 0 1
+The maximum number of spikes of some shape is: 2
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo 1234 5 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 1234 5
+Here is the grid that has been generated:
+    1 0 0 0 1 0 0 0 1 1
+    0 0 0 1 1 1 1 1 1 0
+    1 0 0 1 1 1 0 1 1 0
+    1 0 1 1 0 1 1 0 1 1
+    1 1 1 1 1 1 0 1 0 0
+    1 1 1 1 1 0 0 1 1 1
+    0 1 1 1 0 1 0 1 1 1
+    1 0 1 1 0 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 1
+    0 1 1 1 1 1 1 1 1 0
+The maximum number of spikes of some shape is: 8
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo 1334 5 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 1334 5
+Here is the grid that has been generated:
+    1 0 0 1 1 1 1 1 1 1
+    1 1 1 1 1 0 1 0 1 1
+    1 1 0 1 1 1 1 0 0 1
+    1 1 1 1 0 1 1 1 0 1
+    1 1 1 1 1 1 0 1 1 1
+    1 1 1 1 1 1 0 1 1 1
+    1 1 1 1 1 1 0 1 0 1
+    0 0 1 1 1 1 1 1 0 1
+    1 1 1 1 0 1 0 1 1 1
+    1 0 1 1 1 1 1 1 1 0
+The maximum number of spikes of some shape is: 2
+TEST 16 END
+
+TEST 17 BEGIN
+$ echo 1434 4 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 1434 4
+Here is the grid that has been generated:
+    0 1 1 1 1 0 1 1 0 1
+    1 1 0 1 1 1 0 0 0 0
+    1 1 1 1 1 1 1 1 1 1
+    0 1 1 1 0 1 1 1 1 1
+    0 1 1 1 1 0 0 0 1 1
+    0 1 0 1 1 0 1 1 1 1
+    0 1 1 1 1 1 0 1 1 1
+    0 0 1 1 1 1 0 1 1 1
+    0 1 1 0 1 1 1 1 1 0
+    1 1 0 0 1 0 1 1 0 1
+The maximum number of spikes of some shape is: 3
+TEST 17 END
+
+TEST 18 BEGIN
+$ echo 1534 4 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 1534 4
+Here is the grid that has been generated:
+    1 1 1 1 1 1 1 1 1 0
+    0 0 1 1 1 1 1 1 1 0
+    1 1 1 1 1 1 1 1 0 1
+    1 0 0 0 1 0 1 1 0 0
+    1 1 1 1 1 1 0 1 0 1
+    0 0 1 1 1 0 1 1 0 1
+    1 1 1 1 1 1 1 1 1 1
+    1 1 1 0 1 0 1 0 1 0
+    0 1 0 1 1 1 0 1 1 0
+    1 1 1 1 1 1 1 1 1 0
+The maximum number of spikes of some shape is: 5
+TEST 18 END
+
+TEST 19 BEGIN
+$ echo 1634 4 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 1634 4
+Here is the grid that has been generated:
+    0 1 0 1 1 0 1 1 1 0
+    1 0 1 0 1 1 1 0 0 1
+    1 1 1 1 1 1 0 1 0 0
+    0 1 1 1 0 1 1 0 0 1
+    1 0 1 1 0 1 1 1 1 1
+    1 1 1 1 0 0 1 0 1 0
+    1 1 1 1 1 1 1 1 1 0
+    1 1 1 1 1 1 0 1 1 0
+    1 0 1 1 1 1 1 1 1 1
+    1 1 1 1 1 0 1 1 1 1
+The maximum number of spikes of some shape is: 6
+TEST 19 END
+
+TEST 20 BEGIN
+$ echo 1734 3 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 1734 3
+Here is the grid that has been generated:
+    0 1 1 0 1 1 1 1 1 0
+    0 1 1 0 0 1 1 1 1 1
+    1 0 1 1 1 1 1 0 1 1
+    0 1 1 0 1 1 1 0 0 1
+    1 0 0 0 0 1 1 1 1 1
+    1 0 1 1 1 1 1 1 1 1
+    0 0 0 1 0 0 0 1 1 1
+    1 1 0 1 0 0 1 1 1 0
+    0 0 1 0 1 1 1 0 1 1
+    1 1 1 1 0 0 1 0 0 1
+The maximum number of spikes of some shape is: 7
+TEST 20 END
+
+TEST 21 BEGIN
+$ echo 1834 3 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 1834 3
+Here is the grid that has been generated:
+    1 1 1 1 0 0 1 0 1 1
+    1 1 0 1 1 0 0 1 1 1
+    0 1 0 1 0 1 1 0 1 1
+    1 1 1 1 1 0 1 1 0 1
+    1 0 0 1 1 0 1 0 1 0
+    1 0 1 1 1 1 1 1 1 1
+    1 1 1 0 0 1 1 0 0 1
+    1 0 1 1 0 1 0 1 1 0
+    1 1 0 1 0 1 1 0 1 1
+    1 1 0 1 1 1 0 0 0 1
+The maximum number of spikes of some shape is: 6
+TEST 21 END
+
+TEST 22 BEGIN
+$ echo 1934 3 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 1934 3
+Here is the grid that has been generated:
+    1 0 1 0 1 1 0 1 1 0
+    1 0 1 1 1 1 0 1 0 1
+    0 1 1 1 0 1 1 1 1 1
+    0 0 1 1 0 1 1 1 1 1
+    0 1 1 1 0 0 1 1 0 1
+    1 0 0 0 0 1 1 1 1 1
+    1 1 1 0 1 1 1 1 1 1
+    0 0 1 0 0 1 0 1 0 1
+    1 1 1 1 1 1 1 0 1 1
+    1 1 0 0 0 1 1 0 1 1
+The maximum number of spikes of some shape is: 8
+TEST 22 END
+
+TEST 23 BEGIN
+$ echo 2034 2 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 2034 2
+Here is the grid that has been generated:
+    0 1 1 0 0 1 0 0 0 1
+    0 1 0 0 0 1 0 0 0 1
+    1 1 0 1 0 1 0 1 1 0
+    0 0 0 0 1 0 0 0 0 1
+    0 1 0 1 1 1 1 0 1 1
+    0 1 0 1 0 0 1 1 1 0
+    0 0 1 0 1 1 0 0 0 0
+    1 0 0 0 1 0 0 1 1 0
+    0 0 0 1 0 1 0 0 1 1
+    1 1 0 1 1 0 1 0 1 1
+The maximum number of spikes of some shape is: 3
+TEST 23 END
+
+TEST 24 BEGIN
+$ echo 2134 2 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 2134 2
+Here is the grid that has been generated:
+    1 1 1 1 0 1 0 0 0 1
+    0 1 1 1 1 1 1 0 0 0
+    0 1 0 1 1 1 1 0 1 0
+    0 1 0 1 0 0 0 0 1 0
+    0 1 1 1 0 0 1 0 0 0
+    1 1 1 1 0 0 1 1 0 1
+    1 1 1 1 1 0 0 0 1 1
+    0 1 1 0 0 0 0 0 0 1
+    1 1 1 1 0 0 0 0 0 1
+    1 1 1 0 0 1 1 0 1 1
+The maximum number of spikes of some shape is: 4
+TEST 24 END
+
+TEST 25 BEGIN
+$ echo 2234 2 | python3 quiz_7.py
+Enter two integers, the second one being strictly positive: 2234 2
+Here is the grid that has been generated:
+    0 0 1 0 1 1 0 1 1 1
+    1 0 0 0 0 0 0 0 0 1
+    1 0 1 1 0 0 1 0 1 0
+    0 1 1 1 1 0 1 1 1 1
+    1 1 1 1 0 1 1 0 0 1
+    0 0 0 0 0 0 0 1 0 1
+    1 1 0 1 1 1 0 0 0 0
+    0 1 0 0 0 0 0 0 0 1
+    0 0 1 1 1 0 1 0 0 1
+    0 0 1 0 0 1 1 1 0 0
+The maximum number of spikes of some shape is: 4
+TEST 25 END
+

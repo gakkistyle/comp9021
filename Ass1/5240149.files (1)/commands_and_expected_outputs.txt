@@ -1,0 +1,480 @@
+TEST 1 BEGIN
+$ echo '' | python3 roman_arabic.py
+How can I help you? 
+I don't get what you want, sorry mate!
+TEST 1 END
+
+TEST 2 BEGIN
+$ echo Please convert 4567 2345 | python3 roman_arabic.py
+How can I help you? Please convert 4567 2345
+I don't get what you want, sorry mate!
+TEST 2 END
+
+TEST 3 BEGIN
+$ echo Please convert 123 using | python3 roman_arabic.py
+How can I help you? Please convert 123 using
+I don't get what you want, sorry mate!
+TEST 3 END
+
+TEST 4 BEGIN
+$ echo Please convert 519 minimally using | python3 roman_arabic.py
+How can I help you? Please convert 519 minimally using
+I don't get what you want, sorry mate!
+TEST 4 END
+
+TEST 5 BEGIN
+$ echo Please convert 519 using ABCDE minimally | python3 roman_arabic.py
+How can I help you? Please convert 519 using ABCDE minimally
+I don't get what you want, sorry mate!
+TEST 5 END
+
+TEST 6 BEGIN
+$ echo Please convert 1045 minimal | python3 roman_arabic.py
+How can I help you? Please convert 1045 minimal
+I don't get what you want, sorry mate!
+TEST 6 END
+
+TEST 7 BEGIN
+$ echo Please convert 30 THCO THCO | python3 roman_arabic.py
+How can I help you? Please convert 30 THCO THCO
+I don't get what you want, sorry mate!
+TEST 7 END
+
+TEST 8 BEGIN
+$ echo Please convert 51 using using ABCDE | python3 roman_arabic.py
+How can I help you? Please convert 51 using using ABCDE
+I don't get what you want, sorry mate!
+TEST 8 END
+
+TEST 9 BEGIN
+$ echo Please please 51 using DABCDE | python3 roman_arabic.py
+How can I help you? Please please 51 using DABCDE
+I don't get what you want, sorry mate!
+TEST 9 END
+
+TEST 10 BEGIN
+$ echo Please_concert please_convert E using E | python3 roman_arabic.py
+How can I help you? Please_concert please_convert E using E
+I don't get what you want, sorry mate!
+TEST 10 END
+
+TEST 11 BEGIN
+$ echo Please convert 0 | python3 roman_arabic.py
+How can I help you? Please convert 0
+Hey, ask me something that's not impossible to do!
+TEST 11 END
+
+TEST 12 BEGIN
+$ echo Please convert 010 | python3 roman_arabic.py
+How can I help you? Please convert 010
+Hey, ask me something that's not impossible to do!
+TEST 12 END
+
+TEST 13 BEGIN
+$ echo Please convert 4000 | python3 roman_arabic.py
+How can I help you? Please convert 4000
+Hey, ask me something that's not impossible to do!
+TEST 13 END
+
+TEST 14 BEGIN
+$ echo Please convert VV | python3 roman_arabic.py
+How can I help you? Please convert VV
+Hey, ask me something that's not impossible to do!
+TEST 14 END
+
+TEST 15 BEGIN
+$ echo Please convert IVI | python3 roman_arabic.py
+How can I help you? Please convert IVI
+Hey, ask me something that's not impossible to do!
+TEST 15 END
+
+TEST 16 BEGIN
+$ echo Please convert IVX | python3 roman_arabic.py
+How can I help you? Please convert IVX
+Hey, ask me something that's not impossible to do!
+TEST 16 END
+
+TEST 17 BEGIN
+$ echo Please convert 1 | python3 roman_arabic.py
+How can I help you? Please convert 1
+Sure! It is I
+TEST 17 END
+
+TEST 18 BEGIN
+$ echo Please convert 69 | python3 roman_arabic.py
+How can I help you? Please convert 69
+Sure! It is LXIX
+TEST 18 END
+
+TEST 19 BEGIN
+$ echo Please convert 307 | python3 roman_arabic.py
+How can I help you? Please convert 307
+Sure! It is CCCVII
+TEST 19 END
+
+TEST 20 BEGIN
+$ echo Please convert 1110 | python3 roman_arabic.py
+How can I help you? Please convert 1110
+Sure! It is MCX
+TEST 20 END
+
+TEST 21 BEGIN
+$ echo Please convert 2009 | python3 roman_arabic.py
+How can I help you? Please convert 2009
+Sure! It is MMIX
+TEST 21 END
+
+TEST 22 BEGIN
+$ echo Please convert 3060 | python3 roman_arabic.py
+How can I help you? Please convert 3060
+Sure! It is MMMLX
+TEST 22 END
+
+TEST 23 BEGIN
+$ echo Please convert 3984 | python3 roman_arabic.py
+How can I help you? Please convert 3984
+Sure! It is MMMCMLXXXIV
+TEST 23 END
+
+TEST 24 BEGIN
+$ echo Please convert I | python3 roman_arabic.py
+How can I help you? Please convert I
+Sure! It is 1
+TEST 24 END
+
+TEST 25 BEGIN
+$ echo Please convert LXIX | python3 roman_arabic.py
+How can I help you? Please convert LXIX
+Sure! It is 69
+TEST 25 END
+
+TEST 26 BEGIN
+$ echo Please convert CCCVII | python3 roman_arabic.py
+How can I help you? Please convert CCCVII
+Sure! It is 307
+TEST 26 END
+
+TEST 27 BEGIN
+$ echo Please convert MCX | python3 roman_arabic.py
+How can I help you? Please convert MCX
+Sure! It is 1110
+TEST 27 END
+
+TEST 28 BEGIN
+$ echo Please convert MMIX | python3 roman_arabic.py
+How can I help you? Please convert MMIX
+Sure! It is 2009
+TEST 28 END
+
+TEST 29 BEGIN
+$ echo Please convert MMMLX | python3 roman_arabic.py
+How can I help you? Please convert MMMLX
+Sure! It is 3060
+TEST 29 END
+
+TEST 30 BEGIN
+$ echo Please convert MMMCMLXXXIV | python3 roman_arabic.py
+How can I help you? Please convert MMMCMLXXXIV
+Sure! It is 3984
+TEST 30 END
+
+TEST 31 BEGIN
+$ echo Please convert aba using ab | python3 roman_arabic.py
+How can I help you? Please convert aba using ab
+Hey, ask me something that's not impossible to do!
+TEST 31 END
+
+TEST 32 BEGIN
+$ echo Please convert LI using IPQL | python3 roman_arabic.py
+How can I help you? Please convert LI using IPQL
+Hey, ask me something that's not impossible to do!
+TEST 32 END
+
+TEST 33 BEGIN
+$ echo Please convert ABCDEF using XYZBCDEF | python3 roman_arabic.py
+How can I help you? Please convert ABCDEF using XYZBCDEF
+Hey, ask me something that's not impossible to do!
+TEST 33 END
+
+TEST 34 BEGIN
+$ echo Please convert ABCDEFGHIJKLMNOPQRST using AbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStT | python3 roman_arabic.py
+How can I help you? Please convert ABCDEFGHIJKLMNOPQRST using AbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStT
+Sure! It is 11111111111111111111
+TEST 34 END
+
+TEST 35 BEGIN
+$ echo Please convert 098 using zaqws | python3 roman_arabic.py
+How can I help you? Please convert 098 using zaqws
+Hey, ask me something that's not impossible to do!
+TEST 35 END
+
+TEST 36 BEGIN
+$ echo Please convert 4000 using lkjhgfd | python3 roman_arabic.py
+How can I help you? Please convert 4000 using lkjhgfd
+Hey, ask me something that's not impossible to do!
+TEST 36 END
+
+TEST 37 BEGIN
+$ echo Please convert 4 using lL | python3 roman_arabic.py
+How can I help you? Please convert 4 using lL
+Sure! It is Ll
+TEST 37 END
+
+TEST 38 BEGIN
+$ echo Please convert 7 using asdfghjklpoiuyt | python3 roman_arabic.py
+How can I help you? Please convert 7 using asdfghjklpoiuyt
+Sure! It is ytt
+TEST 38 END
+
+TEST 39 BEGIN
+$ echo Please convert 957 using mMnNjJkKtTgGdDqQ | python3 roman_arabic.py
+How can I help you? Please convert 957 using mMnNjJkKtTgGdDqQ
+Sure! It is GTdqQQ
+TEST 39 END
+
+TEST 40 BEGIN
+$ echo Please convert 55555 using plmnbqwert | python3 roman_arabic.py
+How can I help you? Please convert 55555 using plmnbqwert
+Sure! It is pmbwr
+TEST 40 END
+
+TEST 41 BEGIN
+$ echo Please convert 936936936936936 using pqowieurytLAKSDJFHGzmxncbvQPWOEIRUTY | python3 roman_arabic.py
+How can I help you? Please convert 936936936936936 using pqowieurytLAKSDJFHGzmxncbvQPWOEIRUTY
+Sure! It is retttLASAJJJFHzHxxxncvcPPPWOIOUUUTY
+TEST 41 END
+
+TEST 42 BEGIN
+$ echo Please convert 1020304050607080901 using qwertyuioplkjhgfdsaZXCVBNMLKJHGFDSAQWERTYUIOPzxcvbnm | python3 roman_arabic.py
+How can I help you? Please convert 1020304050607080901 using qwertyuioplkjhgfdsaZXCVBNMLKJHGFDSAQWERTYUIOPzxcvbnm
+Sure! It is fZZBBBKLGAQRTTIOOOczm
+TEST 42 END
+
+TEST 43 BEGIN
+$ echo Please convert 6000000040000000008 using QWERTYUIOPlkjhgfdsaZXCVBNMmnbvcxzASDFGHJKL | python3 roman_arabic.py
+How can I help you? Please convert 6000000040000000008 using QWERTYUIOPlkjhgfdsaZXCVBNMmnbvcxzASDFGHJKL
+Sure! It is TYCXKLLL
+TEST 43 END
+
+TEST 44 BEGIN
+$ echo Please convert Ll using lL | python3 roman_arabic.py
+How can I help you? Please convert Ll using lL
+Sure! It is 4
+TEST 44 END
+
+TEST 45 BEGIN
+$ echo Please convert ytt using asdfghjklpoiuyt | python3 roman_arabic.py
+How can I help you? Please convert ytt using asdfghjklpoiuyt
+Sure! It is 7
+TEST 45 END
+
+TEST 46 BEGIN
+$ echo Please convert GTdqQQ using mMnNjJkKtTgGdDqQ | python3 roman_arabic.py
+How can I help you? Please convert GTdqQQ using mMnNjJkKtTgGdDqQ
+Sure! It is 957
+TEST 46 END
+
+TEST 47 BEGIN
+$ echo Please convert pmbwr using plmnbqwert | python3 roman_arabic.py
+How can I help you? Please convert pmbwr using plmnbqwert
+Sure! It is 55555
+TEST 47 END
+
+TEST 48 BEGIN
+$ echo Please convert retttLASAJJJFHzHxxxncvcPPPWOIOUUUTY using pqowieurytLAKSDJFHGzmxncbvQPWOEIRUTY | python3 roman_arabic.py
+How can I help you? Please convert retttLASAJJJFHzHxxxncvcPPPWOIOUUUTY using pqowieurytLAKSDJFHGzmxncbvQPWOEIRUTY
+Sure! It is 936936936936936
+TEST 48 END
+
+TEST 49 BEGIN
+$ echo Please convert fZZBBBKLGAQRTTIOOOczm using qwertyuioplkjhgfdsaZXCVBNMLKJHGFDSAQWERTYUIOPzxcvbnm | python3 roman_arabic.py
+How can I help you? Please convert fZZBBBKLGAQRTTIOOOczm using qwertyuioplkjhgfdsaZXCVBNMLKJHGFDSAQWERTYUIOPzxcvbnm
+Sure! It is 1020304050607080901
+TEST 49 END
+
+TEST 50 BEGIN
+$ echo Please convert TYCXKLLL using QWERTYUIOPlkjhgfdsaZXCVBNMmnbvcxzASDFGHJKL | python3 roman_arabic.py
+How can I help you? Please convert TYCXKLLL using QWERTYUIOPlkjhgfdsaZXCVBNMmnbvcxzASDFGHJKL
+Sure! It is 6000000040000000008
+TEST 50 END
+
+TEST 51 BEGIN
+$ echo Please convert 937 minimally | python3 roman_arabic.py
+How can I help you? Please convert 937 minimally
+Hey, ask me something that's not impossible to do!
+TEST 51 END
+
+TEST 52 BEGIN
+$ echo Please convert I0 minimally | python3 roman_arabic.py
+How can I help you? Please convert I0 minimally
+Hey, ask me something that's not impossible to do!
+TEST 52 END
+
+TEST 53 BEGIN
+$ echo Please convert MSSM minimally | python3 roman_arabic.py
+How can I help you? Please convert MSSM minimally
+Hey, ask me something that's not impossible to do!
+TEST 53 END
+
+TEST 54 BEGIN
+$ echo Please convert ABAB minimally | python3 roman_arabic.py
+How can I help you? Please convert ABAB minimally
+Hey, ask me something that's not impossible to do!
+TEST 54 END
+
+TEST 55 BEGIN
+$ echo Please convert ABCDEFA minimally | python3 roman_arabic.py
+How can I help you? Please convert ABCDEFA minimally
+Hey, ask me something that's not impossible to do!
+TEST 55 END
+
+TEST 56 BEGIN
+$ echo Please convert ABAAA minimally | python3 roman_arabic.py
+How can I help you? Please convert ABAAA minimally
+Hey, ask me something that's not impossible to do!
+TEST 56 END
+
+TEST 57 BEGIN
+$ echo Please convert ABBACDEFGH minimally | python3 roman_arabic.py
+How can I help you? Please convert ABBACDEFGH minimally
+Hey, ask me something that's not impossible to do!
+TEST 57 END
+
+TEST 58 BEGIN
+$ echo Please convert abcdeabcde minimally | python3 roman_arabic.py
+How can I help you? Please convert abcdeabcde minimally
+Hey, ask me something that's not impossible to do!
+TEST 58 END
+
+TEST 59 BEGIN
+$ echo Please convert aaaYeXbbbcccdddeee minimally | python3 roman_arabic.py
+How can I help you? Please convert aaaYeXbbbcccdddeee minimally
+Hey, ask me something that's not impossible to do!
+TEST 59 END
+
+TEST 60 BEGIN
+$ echo Please convert abcdefghijabcdefghij minimally | python3 roman_arabic.py
+How can I help you? Please convert abcdefghijabcdefghij minimally
+Hey, ask me something that's not impossible to do!
+TEST 60 END
+
+TEST 61 BEGIN
+$ echo Please convert X minimally | python3 roman_arabic.py
+How can I help you? Please convert X minimally
+Sure! It is 1 using X
+TEST 61 END
+
+TEST 62 BEGIN
+$ echo Please convert qp minimally | python3 roman_arabic.py
+How can I help you? Please convert qp minimally
+Sure! It is 4 using pq
+TEST 62 END
+
+TEST 63 BEGIN
+$ echo Please convert LPPP minimally | python3 roman_arabic.py
+How can I help you? Please convert LPPP minimally
+Sure! It is 8 using LP
+TEST 63 END
+
+TEST 64 BEGIN
+$ echo Please convert hjgrt minimally | python3 roman_arabic.py
+How can I help you? Please convert hjgrt minimally
+Sure! It is 144 using hgjtr
+TEST 64 END
+
+TEST 65 BEGIN
+$ echo Please convert TTTEEQ minimally | python3 roman_arabic.py
+How can I help you? Please convert TTTEEQ minimally
+Sure! It is 321 using T_E_Q
+TEST 65 END
+
+TEST 66 BEGIN
+$ echo Please convert ERRTYYY minimally | python3 roman_arabic.py
+How can I help you? Please convert ERRTYYY minimally
+Sure! It is 78 using ERTY
+TEST 66 END
+
+TEST 67 BEGIN
+$ echo Please convert IIUUUtTRRB minimally | python3 roman_arabic.py
+How can I help you? Please convert IIUUUtTRRB minimally
+Sure! It is 23171 using I_U_tTR_B
+TEST 67 END
+
+TEST 68 BEGIN
+$ echo Please convert lljjggffsswwccbbnn minimally | python3 roman_arabic.py
+How can I help you? Please convert lljjggffsswwccbbnn minimally
+Sure! It is 222222222 using l_j_g_f_s_w_c_b_n
+TEST 68 END
+
+TEST 69 BEGIN
+$ echo Please convert eteuuiooolllkjjghfds minimally | python3 roman_arabic.py
+How can I help you? Please convert eteuuiooolllkjjghfds minimally
+Sure! It is 192837144 using e_t_uio_lkj_gfhsd
+TEST 69 END
+
+TEST 70 BEGIN
+$ echo Please convert lllkkkjjhhmxxvvqqqppp minimally | python3 roman_arabic.py
+How can I help you? Please convert lllkkkjjhhmxxvvqqqppp minimally
+Sure! It is 33227233 using l_k_j_hmx_v_q_p
+TEST 70 END
+
+TEST 71 BEGIN
+$ echo Please convert kdjshffyyyMAAADDGDT minimally | python3 roman_arabic.py
+How can I help you? Please convert kdjshffyyyMAAADDGDT minimally
+Sure! It is 44738291 using dksjhf_yMA_D_G_T
+TEST 71 END
+
+TEST 72 BEGIN
+$ echo Please convert brbwwqaaaZZZXCCKBOPL minimally | python3 roman_arabic.py
+How can I help you? Please convert brbwwqaaaZZZXCCKBOPL minimally
+Sure! It is 192837144 using b_r_wqa_ZXC_KOBLP
+TEST 72 END
+
+TEST 73 BEGIN
+$ echo Please convert CEEGGGIikmMoOOqQQQSR minimally | python3 roman_arabic.py
+How can I help you? Please convert CEEGGGIikmMoOOqQQQSR minimally
+Sure! It is 73144784 using CE_G_IkiMmoOqQRS
+TEST 73 END
+
+TEST 74 BEGIN
+$ echo Please convert uvcfdrzzzeeaQQCCCHVYRE minimally | python3 roman_arabic.py
+How can I help you? Please convert uvcfdrzzzeeaQQCCCHVYRE minimally
+Sure! It is 1448273144 using ucvdfrz_eaQ_C_HYVER
+TEST 74 END
+
+TEST 75 BEGIN
+$ echo Please convert iyoppplkkjhgdazxccvbbbmb minimally | python3 roman_arabic.py
+How can I help you? Please convert iyoppplkkjhgdazxccvbbbmb minimally
+Sure! It is 487444789 using yioplkhjdgzaxcvb_m
+TEST 75 END
+
+TEST 76 BEGIN
+$ echo Please convert KKKJJJHHZZXCVVRRQQQWWW minimally | python3 roman_arabic.py
+How can I help you? Please convert KKKJJJHHZZXCVVRRQQQWWW minimally
+Sure! It is 332217233 using K_J_H_Z_XCV_R_Q_W
+TEST 76 END
+
+TEST 77 BEGIN
+$ echo Please convert tgggvnnLAAAKSSFJHDERRTWWW minimally | python3 roman_arabic.py
+How can I help you? Please convert tgggvnnLAAAKSSFJHDERRTWWW minimally
+Sure! It is 87874478 using tgvnLAKSJFDHERTW
+TEST 77 END
+
+TEST 78 BEGIN
+$ echo Please convert YUUIIIOoplLkKKjJJJHJGHfFFFdDDsSaZzXXXCCV minimally | python3 roman_arabic.py
+How can I help you? Please convert YUUIIIOoplLkKKjJJJHJGHfFFFdDDsSaZzXXXCCV minimally
+Sure! It is 7314478998744821 using YU_I_OpoLlkKjJ_H_GfFdDSsZazX_C_V
+TEST 78 END
+
+TEST 79 BEGIN
+$ echo Please convert IOOPPPLlkjJhHHgGGGFGDFsSSSaAAzZxCcVVVBBN minimally | python3 roman_arabic.py
+How can I help you? Please convert IOOPPPLlkjJhHHgGGGFGDFsSSSaAAzZxCcVVVBBN minimally
+Sure! It is 7314478998744821 using IO_P_LklJjhHgG_F_DsSaAZzCxcV_B_N
+TEST 79 END
+
+TEST 80 BEGIN
+$ echo Please convert fhdssszsxcccbcnmmmNmBVVVXVZAAASDGGHJLLPOUUYTEEWQ minimally | python3 roman_arabic.py
+How can I help you? Please convert fhdssszsxcccbcnmmmNmBVVVXVZAAASDGGHJLLPOUUYTEEWQ minimally
+Sure! It is 4898989898171717174 using hfds_zxc_bnm_NBV_XZA_SDG_HJL_POU_YTEQW
+TEST 80 END
+

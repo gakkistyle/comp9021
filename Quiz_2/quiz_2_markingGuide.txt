@@ -1,0 +1,11 @@
+--------------------------------
+Quiz 2 - Marking Guide - 3 Marks
+--------------------------------
+
+1.5 marks for cycles
+
+1.5 marks for reversed dictionary
+
+---------------------------------
+
+3   total marks
